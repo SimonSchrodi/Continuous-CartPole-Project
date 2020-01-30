@@ -211,7 +211,7 @@ class poleWorker(Worker):
             # create dqn object and train it
             dqn = DQN(state_dim, config['action_dim'],
                       gamma=config['gamma'], conf=conf)
-            time_steps = 500
+            time_steps = 1000
             stats = dqn.train(int(budget), time_steps, env, conf)
             # plot_episode_stats(stats, noshow=True)
             env.close()
