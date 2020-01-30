@@ -3,6 +3,7 @@ import gym
 from gym import spaces, logger
 from gym.utils import seeding
 import numpy as np
+from utils import angle_normalize
 
 class ContinuousCartPoleEnv(gym.Env):
     metadata = {
@@ -75,10 +76,10 @@ class ContinuousCartPoleEnv(gym.Env):
             theta_dot = theta_dot + self.tau * thetaacc
             theta = theta + self.tau * theta_dot
         self.state = (x,x_dot,theta,theta_dot)
-        
+
         done =  x < -self.x_threshold or x > self.x_threshold
         done = bool(done)
-        
+
         reward = self.reward(self)
 
         return np.array(self.state), reward, done, {}
@@ -146,6 +147,3 @@ class ContinuousCartPoleEnv(gym.Env):
         if self.viewer:
             self.viewer.close()
             self.viewer = None
-
-def angle_normalize(x):
-    return (((x+np.pi) % (2*np.pi)) - np.pi)
