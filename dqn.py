@@ -11,6 +11,7 @@ import torch.nn as nn
 import torch.optim as optim
 import torch.nn.functional as F
 from torch.autograd import Variable
+from torch.optim.lr_scheduler import StepLR
 from collections import deque
 from collections import namedtuple
 import time
@@ -61,7 +62,7 @@ class DQN:
     def __init__(self, state_dim, action_dim, gamma,
                  conf={'lr':0.001, 'bs':64, 'loss':nn.MSELoss, 'hidden_dim':64,
                        'activation':'relu',
-                       'mem_size':1e6, 'epsilon':1., 'eps_scheduler':'exp',
+                       'mem_size':50000, 'epsilon':1., 'eps_scheduler':'exp',
                        'n_episodes':1000, 'n_cycles':1, 'subtract':0.,
                       }):
         if conf['activation'] == 'relu':
@@ -91,6 +92,7 @@ class DQN:
         self._q_optimizer = optim.Adam(self._q.parameters(), lr=conf['lr'])
         self._action_dim = action_dim
         self._replay_buffer = ReplayBuffer(conf['mem_size'])
+        self.scheduler = StepLR(self._q_optimizer, step_size=1, gamma=0.99)
         ############################
         # actions
         self.action = acton_discrete(action_dim)
@@ -123,7 +125,7 @@ class DQN:
             elif self.eps_scheduler == 'exp':
                 eps = exponential_decay_w_restarts(e, self.n_episodes,
                                                    self.n_cycles,
-                                                   1, 0.03, conf['decay_rate'])
+                                                   conf['epsilon'], 0.03, conf['decay_rate'])
             stats.episode_epsilon[e] = eps
             ############################
             # opt: each 20e continuos ploting (only works without bohb)
@@ -176,6 +178,7 @@ class DQN:
             # if episode didn't failed, time is maximal time
             if stats.episode_lengths[e] == 0:
                 stats.episode_lengths[e] = time_steps
+            self.scheduler.step()
         return stats
 
 class poleWorker(Worker):
@@ -201,10 +204,10 @@ class poleWorker(Worker):
             # conf dictionary to controll training
             conf = {'lr':config['lr'], 'bs':64, 'loss':nn.MSELoss(),
                     'hidden_dim':config['hidden_dim'],
-                    'mem_size':1e6, 'activation':config['activation'],
+                    'mem_size':50000, 'activation':config['activation'],
                     'epsilon':config['epsilon'],
                     'eps_scheduler':'exp', 'n_episodes':budget,
-                    'dropout_rate': 0.0, 'n_cycles': 1,
+                    'dropout_rate': config['dropout_rate'], 'n_cycles': 1,
                     'decay_rate': config['decay_rate']
                   }
             ############################
@@ -214,13 +217,24 @@ class poleWorker(Worker):
             time_steps = 1000
             stats = dqn.train(int(budget), time_steps, env, conf)
             # plot_episode_stats(stats, noshow=True)
+            final_reward = 0
+            for _ in range(5):
+                s = env.reset()
+                for _ in range(time_steps):
+                    # env.render()
+                    action = dqn.get_action(s, 0.)
+                    s, r, d, _ = env.step(dqn.action.act(action))  #(action - 5)/6]))
+                    final_reward += r
+                    if d:
+                        break
             env.close()
 #           ###########################
             return ({
                      # remember: HpBandSter always minimizes!
-                    'loss': -max(stats.episode_rewards),
-                    'info': {'max_len': max(stats.episode_lengths),
-                             'max_reward': max(stats.episode_rewards) }
+                    'loss': - (final_reward / 5),
+                    'info': {'max_len_train': max(stats.episode_lengths),
+                             'max_reward_train': max(stats.episode_rewards),
+                             'avg_final': (final_reward / 5) }
             })
 
 
@@ -235,7 +249,9 @@ class poleWorker(Worker):
             """
             cs = CS.ConfigurationSpace()
             if True:
-                lr = CSH.CategoricalHyperparameter('lr',[0.001])
+                lr = CSH.UniformFloatHyperparameter('lr',
+                        lower=0.0001, upper=0.01, default_value=0.001,
+                         log=True)
                 hidden_dim = CSH.CategoricalHyperparameter('hidden_dim',
                         [16, 32, 64, 128, 256])
                 activation = CSH.CategoricalHyperparameter('activation',
@@ -246,11 +262,11 @@ class poleWorker(Worker):
                         lower=0.001, upper=.1, default_value=.01, log=True)
                 gamma = CSH.CategoricalHyperparameter('gamma',[0.99])
                 action_dim = CSH.UniformIntegerHyperparameter('action_dim',
-                        lower=3, upper=20)
+                        lower=3, upper=30)
                 seed = CSH.UniformIntegerHyperparameter('seed',
-                        lower=0, upper=1000, default_value=42)
+                        lower=0, upper=4000, default_value=42)
                 dropout_rate = CSH.UniformFloatHyperparameter('dropout_rate',
-                        lower=0.0, upper=0.2, default_value=0.0)
+                        lower=0.0, upper=0.8, default_value=0.0)
             else:
                 lr = CSH.UniformFloatHyperparameter('lr',
                         lower=0.001, upper=0.0012, default_value=0.001,
@@ -285,6 +301,8 @@ parser.add_argument('--min_budget',   type=float,
         help='Minimum budget used during the optimization.',    default=20)
 parser.add_argument('--max_budget',   type=float,
         help='Maximum budget used during the optimization.',    default=200)
+parser.add_argument('--eta',   type=float,
+        help='Divisor for budgets',    default=3)
 parser.add_argument('--n_iterations', type=int,
         help='Number of iterations performed by the optimizer', default=5)
 parser.add_argument('--n_workers', type=int,
@@ -319,8 +337,8 @@ else:
         workers.append(w)
     ############################
     # create logged bohb object and run it
-    bohb = BOHB(  configspace = w.get_configspace(),
-                  run_id = run_id,
+    bohb = BOHB(  configspace=w.get_configspace(),
+                  run_id=run_id, eta=args.eta,
                   min_budget=args.min_budget, max_budget=args.max_budget,
                   result_logger=result_logger,
                )
