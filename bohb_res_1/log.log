@@ -1,0 +1,1445 @@
+INFO:hpbandster:DISPATCHER: started the 'discover_worker' thread
+DEBUG:hpbandster:budgets: [ 22.22222222  66.66666667 200.        ]
+DEBUG:hpbandster:wait_for_workers trying to get the condition
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.0:WORKER: Connected to nameserver <Pyro4.core.Proxy at 0x7f893c69ca20; connected IPv4; for PYRO:Pyro.NameServer@127.0.0.1:9090>
+INFO:hpbandster:DISPATCHER: started the 'job_runner' thread
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: Connected to nameserver <Pyro4.core.Proxy at 0x7f893c6b42e8; connected IPv4; for PYRO:Pyro.NameServer@127.0.0.1:9090>
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: Connected to nameserver <Pyro4.core.Proxy at 0x7f893c6b40b8; connected IPv4; for PYRO:Pyro.NameServer@127.0.0.1:9090>
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: No dispatcher found. Waiting for one to initiate contact.
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: start listening for jobs
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.0:WORKER: No dispatcher found. Waiting for one to initiate contact.
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.1:WORKER: Connected to nameserver <Pyro4.core.Proxy at 0x7f893c69cc18; connected IPv4; for PYRO:Pyro.NameServer@127.0.0.1:9090>
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: No dispatcher found. Waiting for one to initiate contact.
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.0:WORKER: start listening for jobs
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: start listening for jobs
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.1:WORKER: No dispatcher found. Waiting for one to initiate contact.
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.1:WORKER: start listening for jobs
+INFO:hpbandster:DISPATCHER: Pyro daemon running on localhost:42277
+DEBUG:hpbandster:DISPATCHER: Starting worker discovery
+DEBUG:hpbandster:DISPATCHER: Found 2 potential workers, 0 currently in the pool.
+INFO:hpbandster:DISPATCHER: discovered new worker, hpbandster.run_rl_project_ftw.worker.c3po.16503.3140229856126784
+INFO:hpbandster:DISPATCHER: discovered new worker, hpbandster.run_rl_project_ftw.worker.c3po.16503.0140229856126784
+DEBUG:hpbandster:HBMASTER: number of workers changed to 2
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 2 -> waiting!
+DEBUG:hpbandster:HBMASTER: only 2 worker(s) available, waiting for at least 4.
+DEBUG:hpbandster:adjust_queue_size: lock accquired
+INFO:hpbandster:HBMASTER: adjusted queue size to (1, 2)
+DEBUG:hpbandster:DISPATCHER: Finished worker discovery
+INFO:hpbandster:DISPATCHER: A new worker triggered discover_worker
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 2 -> waiting!
+DEBUG:hpbandster:HBMASTER: only 2 worker(s) available, waiting for at least 4.
+DEBUG:hpbandster:DISPATCHER: Starting worker discovery
+DEBUG:hpbandster:DISPATCHER: Found 4 potential workers, 2 currently in the pool.
+INFO:hpbandster:DISPATCHER: discovered new worker, hpbandster.run_rl_project_ftw.worker.c3po.16503.2140229856126784
+INFO:hpbandster:DISPATCHER: discovered new worker, hpbandster.run_rl_project_ftw.worker.c3po.16503.1140229856126784
+DEBUG:hpbandster:HBMASTER: number of workers changed to 4
+DEBUG:hpbandster:adjust_queue_size: lock accquired
+INFO:hpbandster:HBMASTER: adjusted queue size to (3, 4)
+DEBUG:hpbandster:DISPATCHER: Finished worker discovery
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 4 -> waiting!
+INFO:hpbandster:DISPATCHER: A new worker triggered discover_worker
+DEBUG:hpbandster:Enough workers to start this run!
+INFO:hpbandster:HBMASTER: starting run at 1580383317.4023347
+DEBUG:hpbandster:start sampling a new configuration.
+DEBUG:hpbandster:0
+DEBUG:hpbandster:0.09126772342192169, 0.3333333333333333
+DEBUG:hpbandster:DISPATCHER: Starting worker discovery
+DEBUG:hpbandster:done sampling a new configuration.
+DEBUG:hpbandster:HBMASTER: schedule new run for iteration 0
+DEBUG:hpbandster:HBMASTER: trying submitting job (0, 0, 0) to dispatcher
+DEBUG:hpbandster:HBMASTER: submitting job (0, 0, 0) to dispatcher
+DEBUG:hpbandster:DISPATCHER: trying to submit job (0, 0, 0)
+DEBUG:hpbandster:DISPATCHER: Found 4 potential workers, 4 currently in the pool.
+DEBUG:hpbandster:DISPATCHER: Finished worker discovery
+DEBUG:hpbandster:DISPATCHER: trying to notify the job_runner thread.
+DEBUG:hpbandster:HBMASTER: job (0, 0, 0) submitted to dispatcher
+DEBUG:hpbandster:start sampling a new configuration.
+DEBUG:hpbandster:0
+DEBUG:hpbandster:0.981843268114179, 0.3333333333333333
+DEBUG:hpbandster:done sampling a new configuration.
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:DISPATCHER: starting job (0, 0, 0) on hpbandster.run_rl_project_ftw.worker.c3po.16503.3140229856126784
+DEBUG:hpbandster:DISPATCHER: job (0, 0, 0) dispatched on hpbandster.run_rl_project_ftw.worker.c3po.16503.3140229856126784
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 3 -> waiting!
+DEBUG:hpbandster:HBMASTER: schedule new run for iteration 0
+DEBUG:hpbandster:HBMASTER: trying submitting job (0, 0, 1) to dispatcher
+DEBUG:hpbandster:HBMASTER: submitting job (0, 0, 1) to dispatcher
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: start processing job (0, 0, 0)
+DEBUG:hpbandster:DISPATCHER: trying to submit job (0, 0, 1)
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: args: ()
+DEBUG:hpbandster:DISPATCHER: trying to notify the job_runner thread.
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: kwargs: {'config': {'action_dim': 20, 'activation': 'relu', 'decay_rate': 0.001974824277063128, 'dropout_rate': 0.059590389383513576, 'epsilon': 0.4093316614726244, 'gamma': 0.99, 'hidden_dim': 256, 'lr': 0.001, 'seed': 364}, 'budget': 22.22222222222222, 'working_directory': '.'}
+DEBUG:hpbandster:HBMASTER: job (0, 0, 1) submitted to dispatcher
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:start sampling a new configuration.
+DEBUG:hpbandster:DISPATCHER: starting job (0, 0, 1) on hpbandster.run_rl_project_ftw.worker.c3po.16503.1140229856126784
+DEBUG:hpbandster:0
+DEBUG:hpbandster:DISPATCHER: job (0, 0, 1) dispatched on hpbandster.run_rl_project_ftw.worker.c3po.16503.1140229856126784
+DEBUG:hpbandster:0.4464905766655397, 0.3333333333333333
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.1:WORKER: start processing job (0, 0, 1)
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 2 -> waiting!
+DEBUG:hpbandster:done sampling a new configuration.
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.1:WORKER: args: ()
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.1:WORKER: kwargs: {'config': {'action_dim': 9, 'activation': 'relu', 'decay_rate': 0.009480110212397308, 'dropout_rate': 0.17429632818986043, 'epsilon': 0.15445783717516093, 'gamma': 0.99, 'hidden_dim': 32, 'lr': 0.001, 'seed': 290}, 'budget': 22.22222222222222, 'working_directory': '.'}
+DEBUG:hpbandster:HBMASTER: schedule new run for iteration 0
+DEBUG:hpbandster:HBMASTER: trying submitting job (0, 0, 2) to dispatcher
+DEBUG:hpbandster:HBMASTER: submitting job (0, 0, 2) to dispatcher
+DEBUG:hpbandster:DISPATCHER: trying to submit job (0, 0, 2)
+DEBUG:hpbandster:DISPATCHER: trying to notify the job_runner thread.
+DEBUG:hpbandster:HBMASTER: job (0, 0, 2) submitted to dispatcher
+DEBUG:hpbandster:start sampling a new configuration.
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:0
+DEBUG:hpbandster:DISPATCHER: starting job (0, 0, 2) on hpbandster.run_rl_project_ftw.worker.c3po.16503.0140229856126784
+DEBUG:hpbandster:0.49579742269383376, 0.3333333333333333
+DEBUG:hpbandster:DISPATCHER: job (0, 0, 2) dispatched on hpbandster.run_rl_project_ftw.worker.c3po.16503.0140229856126784
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.0:WORKER: start processing job (0, 0, 2)
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.0:WORKER: args: ()
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.0:WORKER: kwargs: {'config': {'action_dim': 19, 'activation': 'relu', 'decay_rate': 0.004323431910155637, 'dropout_rate': 0.03890722456746514, 'epsilon': 0.16416127674646336, 'gamma': 0.99, 'hidden_dim': 16, 'lr': 0.001, 'seed': 524}, 'budget': 22.22222222222222, 'working_directory': '.'}
+DEBUG:hpbandster:done sampling a new configuration.
+DEBUG:hpbandster:HBMASTER: schedule new run for iteration 0
+DEBUG:hpbandster:HBMASTER: trying submitting job (0, 0, 3) to dispatcher
+DEBUG:hpbandster:HBMASTER: submitting job (0, 0, 3) to dispatcher
+DEBUG:hpbandster:DISPATCHER: trying to submit job (0, 0, 3)
+DEBUG:hpbandster:DISPATCHER: trying to notify the job_runner thread.
+DEBUG:hpbandster:HBMASTER: job (0, 0, 3) submitted to dispatcher
+DEBUG:hpbandster:HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:DISPATCHER: starting job (0, 0, 3) on hpbandster.run_rl_project_ftw.worker.c3po.16503.2140229856126784
+DEBUG:hpbandster:DISPATCHER: job (0, 0, 3) dispatched on hpbandster.run_rl_project_ftw.worker.c3po.16503.2140229856126784
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: start processing job (0, 0, 3)
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: args: ()
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: kwargs: {'config': {'action_dim': 13, 'activation': 'tanh', 'decay_rate': 0.09508549692132386, 'dropout_rate': 0.010127476878339882, 'epsilon': 0.5260053966918045, 'gamma': 0.99, 'hidden_dim': 128, 'lr': 0.001, 'seed': 444}, 'budget': 22.22222222222222, 'working_directory': '.'}
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: done with job (0, 0, 3), trying to register it.
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: registered result for job (0, 0, 3) with dispatcher
+DEBUG:hpbandster:DISPATCHER: job (0, 0, 3) finished
+DEBUG:hpbandster:DISPATCHER: register_result: lock acquired
+DEBUG:hpbandster:DISPATCHER: job (0, 0, 3) on hpbandster.run_rl_project_ftw.worker.c3po.16503.2140229856126784 finished
+DEBUG:hpbandster:job_id: (0, 0, 3)
+kwargs: {'config': {'action_dim': 13, 'activation': 'tanh', 'decay_rate': 0.09508549692132386, 'dropout_rate': 0.010127476878339882, 'epsilon': 0.5260053966918045, 'gamma': 0.99, 'hidden_dim': 128, 'lr': 0.001, 'seed': 444}, 'budget': 22.22222222222222, 'working_directory': '.'}
+result: {'loss': 0.5280000000000094, 'info': {'max_len': 481.0, 'max_reward': -0.5280000000000094}}
+exception: None
+
+DEBUG:hpbandster:job_callback for (0, 0, 3) started
+DEBUG:hpbandster:job_callback for (0, 0, 3) got condition
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+DEBUG:hpbandster:Only 1 run(s) for budget 22.222222 available, need more than 11 -> can't build model!
+DEBUG:hpbandster:HBMASTER: Trying to run another job!
+DEBUG:hpbandster:job_callback for (0, 0, 3) finished
+DEBUG:hpbandster:start sampling a new configuration.
+DEBUG:hpbandster:0
+DEBUG:hpbandster:0.09125844746392997, 0.3333333333333333
+DEBUG:hpbandster:done sampling a new configuration.
+DEBUG:hpbandster:HBMASTER: schedule new run for iteration 0
+DEBUG:hpbandster:HBMASTER: trying submitting job (0, 0, 4) to dispatcher
+DEBUG:hpbandster:HBMASTER: submitting job (0, 0, 4) to dispatcher
+DEBUG:hpbandster:DISPATCHER: trying to submit job (0, 0, 4)
+DEBUG:hpbandster:DISPATCHER: trying to notify the job_runner thread.
+DEBUG:hpbandster:HBMASTER: job (0, 0, 4) submitted to dispatcher
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+DEBUG:hpbandster:DISPATCHER: starting job (0, 0, 4) on hpbandster.run_rl_project_ftw.worker.c3po.16503.2140229856126784
+DEBUG:hpbandster:DISPATCHER: job (0, 0, 4) dispatched on hpbandster.run_rl_project_ftw.worker.c3po.16503.2140229856126784
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: start processing job (0, 0, 4)
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: args: ()
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: kwargs: {'config': {'action_dim': 10, 'activation': 'relu', 'decay_rate': 0.07288773881326666, 'dropout_rate': 0.03607299537909472, 'epsilon': 0.42785660846111523, 'gamma': 0.99, 'hidden_dim': 16, 'lr': 0.001, 'seed': 52}, 'budget': 22.22222222222222, 'working_directory': '.'}
+DEBUG:hpbandster:DISPATCHER: Starting worker discovery
+DEBUG:hpbandster:DISPATCHER: Found 4 potential workers, 4 currently in the pool.
+DEBUG:hpbandster:DISPATCHER: Finished worker discovery
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.1:WORKER: done with job (0, 0, 1), trying to register it.
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.1:WORKER: registered result for job (0, 0, 1) with dispatcher
+DEBUG:hpbandster:DISPATCHER: job (0, 0, 1) finished
+DEBUG:hpbandster:DISPATCHER: register_result: lock acquired
+DEBUG:hpbandster:DISPATCHER: job (0, 0, 1) on hpbandster.run_rl_project_ftw.worker.c3po.16503.1140229856126784 finished
+DEBUG:hpbandster:job_id: (0, 0, 1)
+kwargs: {'config': {'action_dim': 9, 'activation': 'relu', 'decay_rate': 0.009480110212397308, 'dropout_rate': 0.17429632818986043, 'epsilon': 0.15445783717516093, 'gamma': 0.99, 'hidden_dim': 32, 'lr': 0.001, 'seed': 290}, 'budget': 22.22222222222222, 'working_directory': '.'}
+result: {'loss': 9.548, 'info': {'max_len': 452.0, 'max_reward': -9.548}}
+exception: None
+
+DEBUG:hpbandster:job_callback for (0, 0, 1) started
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:job_callback for (0, 0, 1) got condition
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+DEBUG:hpbandster:Only 2 run(s) for budget 22.222222 available, need more than 11 -> can't build model!
+DEBUG:hpbandster:HBMASTER: Trying to run another job!
+DEBUG:hpbandster:job_callback for (0, 0, 1) finished
+DEBUG:hpbandster:start sampling a new configuration.
+DEBUG:hpbandster:0
+DEBUG:hpbandster:0.43319068163239005, 0.3333333333333333
+DEBUG:hpbandster:done sampling a new configuration.
+DEBUG:hpbandster:HBMASTER: schedule new run for iteration 0
+DEBUG:hpbandster:HBMASTER: trying submitting job (0, 0, 5) to dispatcher
+DEBUG:hpbandster:HBMASTER: submitting job (0, 0, 5) to dispatcher
+DEBUG:hpbandster:DISPATCHER: trying to submit job (0, 0, 5)
+DEBUG:hpbandster:DISPATCHER: trying to notify the job_runner thread.
+DEBUG:hpbandster:HBMASTER: job (0, 0, 5) submitted to dispatcher
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+DEBUG:hpbandster:DISPATCHER: starting job (0, 0, 5) on hpbandster.run_rl_project_ftw.worker.c3po.16503.1140229856126784
+DEBUG:hpbandster:DISPATCHER: job (0, 0, 5) dispatched on hpbandster.run_rl_project_ftw.worker.c3po.16503.1140229856126784
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.1:WORKER: start processing job (0, 0, 5)
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.1:WORKER: args: ()
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.1:WORKER: kwargs: {'config': {'action_dim': 20, 'activation': 'tanh', 'decay_rate': 0.076071520438677, 'dropout_rate': 0.09133978622115105, 'epsilon': 0.022389598569844422, 'gamma': 0.99, 'hidden_dim': 128, 'lr': 0.001, 'seed': 113}, 'budget': 22.22222222222222, 'working_directory': '.'}
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.0:WORKER: done with job (0, 0, 2), trying to register it.
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.0:WORKER: registered result for job (0, 0, 2) with dispatcher
+DEBUG:hpbandster:DISPATCHER: job (0, 0, 2) finished
+DEBUG:hpbandster:DISPATCHER: register_result: lock acquired
+DEBUG:hpbandster:DISPATCHER: job (0, 0, 2) on hpbandster.run_rl_project_ftw.worker.c3po.16503.0140229856126784 finished
+DEBUG:hpbandster:job_id: (0, 0, 2)
+kwargs: {'config': {'action_dim': 19, 'activation': 'relu', 'decay_rate': 0.004323431910155637, 'dropout_rate': 0.03890722456746514, 'epsilon': 0.16416127674646336, 'gamma': 0.99, 'hidden_dim': 16, 'lr': 0.001, 'seed': 524}, 'budget': 22.22222222222222, 'working_directory': '.'}
+result: {'loss': -0.6620000000000061, 'info': {'max_len': 672.0, 'max_reward': 0.6620000000000061}}
+exception: None
+
+DEBUG:hpbandster:job_callback for (0, 0, 2) started
+DEBUG:hpbandster:job_callback for (0, 0, 2) got condition
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+DEBUG:hpbandster:Only 3 run(s) for budget 22.222222 available, need more than 11 -> can't build model!
+DEBUG:hpbandster:HBMASTER: Trying to run another job!
+DEBUG:hpbandster:job_callback for (0, 0, 2) finished
+DEBUG:hpbandster:start sampling a new configuration.
+DEBUG:hpbandster:0
+DEBUG:hpbandster:0.17734282460497164, 0.3333333333333333
+DEBUG:hpbandster:done sampling a new configuration.
+DEBUG:hpbandster:HBMASTER: schedule new run for iteration 0
+DEBUG:hpbandster:HBMASTER: trying submitting job (0, 0, 6) to dispatcher
+DEBUG:hpbandster:HBMASTER: submitting job (0, 0, 6) to dispatcher
+DEBUG:hpbandster:DISPATCHER: trying to submit job (0, 0, 6)
+DEBUG:hpbandster:DISPATCHER: trying to notify the job_runner thread.
+DEBUG:hpbandster:HBMASTER: job (0, 0, 6) submitted to dispatcher
+DEBUG:hpbandster:HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:DISPATCHER: starting job (0, 0, 6) on hpbandster.run_rl_project_ftw.worker.c3po.16503.0140229856126784
+DEBUG:hpbandster:DISPATCHER: job (0, 0, 6) dispatched on hpbandster.run_rl_project_ftw.worker.c3po.16503.0140229856126784
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.0:WORKER: start processing job (0, 0, 6)
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.0:WORKER: args: ()
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.0:WORKER: kwargs: {'config': {'action_dim': 13, 'activation': 'relu', 'decay_rate': 0.0862863014791447, 'dropout_rate': 0.08712399950378476, 'epsilon': 0.45572531402406746, 'gamma': 0.99, 'hidden_dim': 64, 'lr': 0.001, 'seed': 37}, 'budget': 22.22222222222222, 'working_directory': '.'}
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: done with job (0, 0, 0), trying to register it.
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: registered result for job (0, 0, 0) with dispatcher
+DEBUG:hpbandster:DISPATCHER: job (0, 0, 0) finished
+DEBUG:hpbandster:DISPATCHER: register_result: lock acquired
+DEBUG:hpbandster:DISPATCHER: job (0, 0, 0) on hpbandster.run_rl_project_ftw.worker.c3po.16503.3140229856126784 finished
+DEBUG:hpbandster:job_id: (0, 0, 0)
+kwargs: {'config': {'action_dim': 20, 'activation': 'relu', 'decay_rate': 0.001974824277063128, 'dropout_rate': 0.059590389383513576, 'epsilon': 0.4093316614726244, 'gamma': 0.99, 'hidden_dim': 256, 'lr': 0.001, 'seed': 364}, 'budget': 22.22222222222222, 'working_directory': '.'}
+result: {'loss': 9.54, 'info': {'max_len': 460.0, 'max_reward': -9.54}}
+exception: None
+
+DEBUG:hpbandster:job_callback for (0, 0, 0) started
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:job_callback for (0, 0, 0) got condition
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+DEBUG:hpbandster:Only 4 run(s) for budget 22.222222 available, need more than 11 -> can't build model!
+DEBUG:hpbandster:HBMASTER: Trying to run another job!
+DEBUG:hpbandster:job_callback for (0, 0, 0) finished
+DEBUG:hpbandster:start sampling a new configuration.
+DEBUG:hpbandster:0
+DEBUG:hpbandster:0.9675246723447106, 0.3333333333333333
+DEBUG:hpbandster:done sampling a new configuration.
+DEBUG:hpbandster:HBMASTER: schedule new run for iteration 0
+DEBUG:hpbandster:HBMASTER: trying submitting job (0, 0, 7) to dispatcher
+DEBUG:hpbandster:HBMASTER: submitting job (0, 0, 7) to dispatcher
+DEBUG:hpbandster:DISPATCHER: trying to submit job (0, 0, 7)
+DEBUG:hpbandster:DISPATCHER: trying to notify the job_runner thread.
+DEBUG:hpbandster:HBMASTER: job (0, 0, 7) submitted to dispatcher
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+DEBUG:hpbandster:DISPATCHER: starting job (0, 0, 7) on hpbandster.run_rl_project_ftw.worker.c3po.16503.3140229856126784
+DEBUG:hpbandster:DISPATCHER: job (0, 0, 7) dispatched on hpbandster.run_rl_project_ftw.worker.c3po.16503.3140229856126784
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: start processing job (0, 0, 7)
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: args: ()
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: kwargs: {'config': {'action_dim': 19, 'activation': 'relu', 'decay_rate': 0.002832497456996066, 'dropout_rate': 0.19183926843657756, 'epsilon': 0.09115475595677353, 'gamma': 0.99, 'hidden_dim': 128, 'lr': 0.001, 'seed': 617}, 'budget': 22.22222222222222, 'working_directory': '.'}
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: done with job (0, 0, 4), trying to register it.
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: registered result for job (0, 0, 4) with dispatcher
+DEBUG:hpbandster:DISPATCHER: job (0, 0, 4) finished
+DEBUG:hpbandster:DISPATCHER: register_result: lock acquired
+DEBUG:hpbandster:DISPATCHER: job (0, 0, 4) on hpbandster.run_rl_project_ftw.worker.c3po.16503.2140229856126784 finished
+DEBUG:hpbandster:job_id: (0, 0, 4)
+kwargs: {'config': {'action_dim': 10, 'activation': 'relu', 'decay_rate': 0.07288773881326666, 'dropout_rate': 0.03607299537909472, 'epsilon': 0.42785660846111523, 'gamma': 0.99, 'hidden_dim': 16, 'lr': 0.001, 'seed': 52}, 'budget': 22.22222222222222, 'working_directory': '.'}
+result: {'loss': 4.5609999999999795, 'info': {'max_len': 444.0, 'max_reward': -4.5609999999999795}}
+exception: None
+
+DEBUG:hpbandster:job_callback for (0, 0, 4) started
+DEBUG:hpbandster:job_callback for (0, 0, 4) got condition
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+DEBUG:hpbandster:Only 5 run(s) for budget 22.222222 available, need more than 11 -> can't build model!
+DEBUG:hpbandster:HBMASTER: Trying to run another job!
+DEBUG:hpbandster:job_callback for (0, 0, 4) finished
+DEBUG:hpbandster:start sampling a new configuration.
+DEBUG:hpbandster:0
+DEBUG:hpbandster:0.8237775356459537, 0.3333333333333333
+DEBUG:hpbandster:done sampling a new configuration.
+DEBUG:hpbandster:HBMASTER: schedule new run for iteration 0
+DEBUG:hpbandster:HBMASTER: trying submitting job (0, 0, 8) to dispatcher
+DEBUG:hpbandster:HBMASTER: submitting job (0, 0, 8) to dispatcher
+DEBUG:hpbandster:DISPATCHER: trying to submit job (0, 0, 8)
+DEBUG:hpbandster:DISPATCHER: trying to notify the job_runner thread.
+DEBUG:hpbandster:HBMASTER: job (0, 0, 8) submitted to dispatcher
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+DEBUG:hpbandster:DISPATCHER: starting job (0, 0, 8) on hpbandster.run_rl_project_ftw.worker.c3po.16503.2140229856126784
+DEBUG:hpbandster:DISPATCHER: job (0, 0, 8) dispatched on hpbandster.run_rl_project_ftw.worker.c3po.16503.2140229856126784
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: start processing job (0, 0, 8)
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: args: ()
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: kwargs: {'config': {'action_dim': 13, 'activation': 'relu', 'decay_rate': 0.001703805962611057, 'dropout_rate': 0.1123862536605555, 'epsilon': 0.18411722958230545, 'gamma': 0.99, 'hidden_dim': 16, 'lr': 0.001, 'seed': 967}, 'budget': 22.22222222222222, 'working_directory': '.'}
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.1:WORKER: done with job (0, 0, 5), trying to register it.
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.1:WORKER: registered result for job (0, 0, 5) with dispatcher
+DEBUG:hpbandster:DISPATCHER: job (0, 0, 5) finished
+DEBUG:hpbandster:DISPATCHER: register_result: lock acquired
+DEBUG:hpbandster:DISPATCHER: job (0, 0, 5) on hpbandster.run_rl_project_ftw.worker.c3po.16503.1140229856126784 finished
+DEBUG:hpbandster:job_id: (0, 0, 5)
+kwargs: {'config': {'action_dim': 20, 'activation': 'tanh', 'decay_rate': 0.076071520438677, 'dropout_rate': 0.09133978622115105, 'epsilon': 0.022389598569844422, 'gamma': 0.99, 'hidden_dim': 128, 'lr': 0.001, 'seed': 113}, 'budget': 22.22222222222222, 'working_directory': '.'}
+result: {'loss': 1.7040000000000042, 'info': {'max_len': 359.0, 'max_reward': -1.7040000000000042}}
+exception: None
+
+DEBUG:hpbandster:job_callback for (0, 0, 5) started
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:job_callback for (0, 0, 5) got condition
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+DEBUG:hpbandster:Only 6 run(s) for budget 22.222222 available, need more than 11 -> can't build model!
+DEBUG:hpbandster:HBMASTER: Trying to run another job!
+DEBUG:hpbandster:job_callback for (0, 0, 5) finished
+DEBUG:hpbandster:start sampling a new configuration.
+DEBUG:hpbandster:0
+DEBUG:hpbandster:0.4081894928716824, 0.3333333333333333
+DEBUG:hpbandster:done sampling a new configuration.
+DEBUG:hpbandster:HBMASTER: schedule new run for iteration 1
+DEBUG:hpbandster:HBMASTER: trying submitting job (1, 0, 0) to dispatcher
+DEBUG:hpbandster:HBMASTER: submitting job (1, 0, 0) to dispatcher
+DEBUG:hpbandster:DISPATCHER: trying to submit job (1, 0, 0)
+DEBUG:hpbandster:DISPATCHER: trying to notify the job_runner thread.
+DEBUG:hpbandster:HBMASTER: job (1, 0, 0) submitted to dispatcher
+DEBUG:hpbandster:HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:DISPATCHER: starting job (1, 0, 0) on hpbandster.run_rl_project_ftw.worker.c3po.16503.1140229856126784
+DEBUG:hpbandster:DISPATCHER: job (1, 0, 0) dispatched on hpbandster.run_rl_project_ftw.worker.c3po.16503.1140229856126784
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.1:WORKER: start processing job (1, 0, 0)
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.1:WORKER: args: ()
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.1:WORKER: kwargs: {'config': {'action_dim': 15, 'activation': 'relu', 'decay_rate': 0.006973288627856106, 'dropout_rate': 0.10945450587037696, 'epsilon': 0.015291399370410925, 'gamma': 0.99, 'hidden_dim': 64, 'lr': 0.001, 'seed': 926}, 'budget': 66.66666666666666, 'working_directory': '.'}
+DEBUG:hpbandster:DISPATCHER: Starting worker discovery
+DEBUG:hpbandster:DISPATCHER: Found 4 potential workers, 4 currently in the pool.
+DEBUG:hpbandster:DISPATCHER: Finished worker discovery
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.0:WORKER: done with job (0, 0, 6), trying to register it.
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.0:WORKER: registered result for job (0, 0, 6) with dispatcher
+DEBUG:hpbandster:DISPATCHER: job (0, 0, 6) finished
+DEBUG:hpbandster:DISPATCHER: register_result: lock acquired
+DEBUG:hpbandster:DISPATCHER: job (0, 0, 6) on hpbandster.run_rl_project_ftw.worker.c3po.16503.0140229856126784 finished
+DEBUG:hpbandster:job_id: (0, 0, 6)
+kwargs: {'config': {'action_dim': 13, 'activation': 'relu', 'decay_rate': 0.0862863014791447, 'dropout_rate': 0.08712399950378476, 'epsilon': 0.45572531402406746, 'gamma': 0.99, 'hidden_dim': 64, 'lr': 0.001, 'seed': 37}, 'budget': 22.22222222222222, 'working_directory': '.'}
+result: {'loss': -0.39099999999995383, 'info': {'max_len': 460.0, 'max_reward': 0.39099999999995383}}
+exception: None
+
+DEBUG:hpbandster:job_callback for (0, 0, 6) started
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:job_callback for (0, 0, 6) got condition
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+DEBUG:hpbandster:Only 7 run(s) for budget 22.222222 available, need more than 11 -> can't build model!
+DEBUG:hpbandster:HBMASTER: Trying to run another job!
+DEBUG:hpbandster:job_callback for (0, 0, 6) finished
+DEBUG:hpbandster:start sampling a new configuration.
+DEBUG:hpbandster:0
+DEBUG:hpbandster:0.08410107360500496, 0.3333333333333333
+DEBUG:hpbandster:done sampling a new configuration.
+DEBUG:hpbandster:HBMASTER: schedule new run for iteration 1
+DEBUG:hpbandster:HBMASTER: trying submitting job (1, 0, 1) to dispatcher
+DEBUG:hpbandster:HBMASTER: submitting job (1, 0, 1) to dispatcher
+DEBUG:hpbandster:DISPATCHER: trying to submit job (1, 0, 1)
+DEBUG:hpbandster:DISPATCHER: trying to notify the job_runner thread.
+DEBUG:hpbandster:HBMASTER: job (1, 0, 1) submitted to dispatcher
+DEBUG:hpbandster:HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:DISPATCHER: starting job (1, 0, 1) on hpbandster.run_rl_project_ftw.worker.c3po.16503.0140229856126784
+DEBUG:hpbandster:DISPATCHER: job (1, 0, 1) dispatched on hpbandster.run_rl_project_ftw.worker.c3po.16503.0140229856126784
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.0:WORKER: start processing job (1, 0, 1)
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.0:WORKER: args: ()
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.0:WORKER: kwargs: {'config': {'action_dim': 10, 'activation': 'tanh', 'decay_rate': 0.001566311811823736, 'dropout_rate': 0.1435269223131063, 'epsilon': 0.18332542019643636, 'gamma': 0.99, 'hidden_dim': 16, 'lr': 0.001, 'seed': 940}, 'budget': 66.66666666666666, 'working_directory': '.'}
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: done with job (0, 0, 8), trying to register it.
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: registered result for job (0, 0, 8) with dispatcher
+DEBUG:hpbandster:DISPATCHER: job (0, 0, 8) finished
+DEBUG:hpbandster:DISPATCHER: register_result: lock acquired
+DEBUG:hpbandster:DISPATCHER: job (0, 0, 8) on hpbandster.run_rl_project_ftw.worker.c3po.16503.2140229856126784 finished
+DEBUG:hpbandster:job_id: (0, 0, 8)
+kwargs: {'config': {'action_dim': 13, 'activation': 'relu', 'decay_rate': 0.001703805962611057, 'dropout_rate': 0.1123862536605555, 'epsilon': 0.18411722958230545, 'gamma': 0.99, 'hidden_dim': 16, 'lr': 0.001, 'seed': 967}, 'budget': 22.22222222222222, 'working_directory': '.'}
+result: {'loss': 9.465, 'info': {'max_len': 535.0, 'max_reward': -9.465}}
+exception: None
+
+DEBUG:hpbandster:job_callback for (0, 0, 8) started
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:job_callback for (0, 0, 8) got condition
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+DEBUG:hpbandster:Only 8 run(s) for budget 22.222222 available, need more than 11 -> can't build model!
+DEBUG:hpbandster:HBMASTER: Trying to run another job!
+DEBUG:hpbandster:job_callback for (0, 0, 8) finished
+DEBUG:hpbandster:start sampling a new configuration.
+DEBUG:hpbandster:0
+DEBUG:hpbandster:0.7951088772302236, 0.3333333333333333
+DEBUG:hpbandster:done sampling a new configuration.
+DEBUG:hpbandster:HBMASTER: schedule new run for iteration 1
+DEBUG:hpbandster:HBMASTER: trying submitting job (1, 0, 2) to dispatcher
+DEBUG:hpbandster:HBMASTER: submitting job (1, 0, 2) to dispatcher
+DEBUG:hpbandster:DISPATCHER: trying to submit job (1, 0, 2)
+DEBUG:hpbandster:DISPATCHER: trying to notify the job_runner thread.
+DEBUG:hpbandster:HBMASTER: job (1, 0, 2) submitted to dispatcher
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+DEBUG:hpbandster:DISPATCHER: starting job (1, 0, 2) on hpbandster.run_rl_project_ftw.worker.c3po.16503.2140229856126784
+DEBUG:hpbandster:DISPATCHER: job (1, 0, 2) dispatched on hpbandster.run_rl_project_ftw.worker.c3po.16503.2140229856126784
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: start processing job (1, 0, 2)
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: args: ()
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: kwargs: {'config': {'action_dim': 3, 'activation': 'relu', 'decay_rate': 0.0048862230058685134, 'dropout_rate': 0.044611576047850626, 'epsilon': 0.0632302179602945, 'gamma': 0.99, 'hidden_dim': 256, 'lr': 0.001, 'seed': 375}, 'budget': 66.66666666666666, 'working_directory': '.'}
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: done with job (0, 0, 7), trying to register it.
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: registered result for job (0, 0, 7) with dispatcher
+DEBUG:hpbandster:DISPATCHER: job (0, 0, 7) finished
+DEBUG:hpbandster:DISPATCHER: register_result: lock acquired
+DEBUG:hpbandster:DISPATCHER: job (0, 0, 7) on hpbandster.run_rl_project_ftw.worker.c3po.16503.3140229856126784 finished
+DEBUG:hpbandster:job_id: (0, 0, 7)
+kwargs: {'config': {'action_dim': 19, 'activation': 'relu', 'decay_rate': 0.002832497456996066, 'dropout_rate': 0.19183926843657756, 'epsilon': 0.09115475595677353, 'gamma': 0.99, 'hidden_dim': 128, 'lr': 0.001, 'seed': 617}, 'budget': 22.22222222222222, 'working_directory': '.'}
+result: {'loss': 4.217999999999982, 'info': {'max_len': 787.0, 'max_reward': -4.217999999999982}}
+exception: None
+
+DEBUG:hpbandster:job_callback for (0, 0, 7) started
+DEBUG:hpbandster:job_callback for (0, 0, 7) got condition
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+DEBUG:hpbandster:Only 9 run(s) for budget 22.222222 available, need more than 11 -> can't build model!
+DEBUG:hpbandster:HBMASTER: Trying to run another job!
+DEBUG:hpbandster:job_callback for (0, 0, 7) finished
+DEBUG:hpbandster:ITERATION: Advancing config (0, 0, 2) to next budget 66.666667
+DEBUG:hpbandster:ITERATION: Advancing config (0, 0, 3) to next budget 66.666667
+DEBUG:hpbandster:ITERATION: Advancing config (0, 0, 6) to next budget 66.666667
+DEBUG:hpbandster:HBMASTER: schedule new run for iteration 0
+DEBUG:hpbandster:HBMASTER: trying submitting job (0, 0, 2) to dispatcher
+DEBUG:hpbandster:HBMASTER: submitting job (0, 0, 2) to dispatcher
+DEBUG:hpbandster:DISPATCHER: trying to submit job (0, 0, 2)
+DEBUG:hpbandster:DISPATCHER: trying to notify the job_runner thread.
+DEBUG:hpbandster:HBMASTER: job (0, 0, 2) submitted to dispatcher
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+DEBUG:hpbandster:DISPATCHER: starting job (0, 0, 2) on hpbandster.run_rl_project_ftw.worker.c3po.16503.3140229856126784
+DEBUG:hpbandster:DISPATCHER: job (0, 0, 2) dispatched on hpbandster.run_rl_project_ftw.worker.c3po.16503.3140229856126784
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: start processing job (0, 0, 2)
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: args: ()
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: kwargs: {'config': {'action_dim': 19, 'activation': 'relu', 'decay_rate': 0.004323431910155637, 'dropout_rate': 0.03890722456746514, 'epsilon': 0.16416127674646336, 'gamma': 0.99, 'hidden_dim': 16, 'lr': 0.001, 'seed': 524}, 'budget': 66.66666666666666, 'working_directory': '.'}
+DEBUG:hpbandster:DISPATCHER: Starting worker discovery
+DEBUG:hpbandster:DISPATCHER: Found 4 potential workers, 4 currently in the pool.
+DEBUG:hpbandster:DISPATCHER: Finished worker discovery
+DEBUG:hpbandster:DISPATCHER: Starting worker discovery
+DEBUG:hpbandster:DISPATCHER: Found 4 potential workers, 4 currently in the pool.
+DEBUG:hpbandster:DISPATCHER: Finished worker discovery
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.1:WORKER: done with job (1, 0, 0), trying to register it.
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.1:WORKER: registered result for job (1, 0, 0) with dispatcher
+DEBUG:hpbandster:DISPATCHER: job (1, 0, 0) finished
+DEBUG:hpbandster:DISPATCHER: register_result: lock acquired
+DEBUG:hpbandster:DISPATCHER: job (1, 0, 0) on hpbandster.run_rl_project_ftw.worker.c3po.16503.1140229856126784 finished
+DEBUG:hpbandster:job_id: (1, 0, 0)
+kwargs: {'config': {'action_dim': 15, 'activation': 'relu', 'decay_rate': 0.006973288627856106, 'dropout_rate': 0.10945450587037696, 'epsilon': 0.015291399370410925, 'gamma': 0.99, 'hidden_dim': 64, 'lr': 0.001, 'seed': 926}, 'budget': 66.66666666666666, 'working_directory': '.'}
+result: {'loss': 5.5339999999999945, 'info': {'max_len': 530.0, 'max_reward': -5.5339999999999945}}
+exception: None
+
+DEBUG:hpbandster:job_callback for (1, 0, 0) started
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:job_callback for (1, 0, 0) got condition
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+DEBUG:hpbandster:Only 1 run(s) for budget 66.666667 available, need more than 11 -> can't build model!
+DEBUG:hpbandster:HBMASTER: Trying to run another job!
+DEBUG:hpbandster:job_callback for (1, 0, 0) finished
+DEBUG:hpbandster:HBMASTER: schedule new run for iteration 0
+DEBUG:hpbandster:HBMASTER: trying submitting job (0, 0, 3) to dispatcher
+DEBUG:hpbandster:HBMASTER: submitting job (0, 0, 3) to dispatcher
+DEBUG:hpbandster:DISPATCHER: trying to submit job (0, 0, 3)
+DEBUG:hpbandster:DISPATCHER: trying to notify the job_runner thread.
+DEBUG:hpbandster:HBMASTER: job (0, 0, 3) submitted to dispatcher
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+DEBUG:hpbandster:DISPATCHER: starting job (0, 0, 3) on hpbandster.run_rl_project_ftw.worker.c3po.16503.1140229856126784
+DEBUG:hpbandster:DISPATCHER: job (0, 0, 3) dispatched on hpbandster.run_rl_project_ftw.worker.c3po.16503.1140229856126784
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.1:WORKER: start processing job (0, 0, 3)
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.1:WORKER: args: ()
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.1:WORKER: kwargs: {'config': {'action_dim': 13, 'activation': 'tanh', 'decay_rate': 0.09508549692132386, 'dropout_rate': 0.010127476878339882, 'epsilon': 0.5260053966918045, 'gamma': 0.99, 'hidden_dim': 128, 'lr': 0.001, 'seed': 444}, 'budget': 66.66666666666666, 'working_directory': '.'}
+DEBUG:hpbandster:DISPATCHER: Starting worker discovery
+DEBUG:hpbandster:DISPATCHER: Found 4 potential workers, 4 currently in the pool.
+DEBUG:hpbandster:DISPATCHER: Finished worker discovery
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.0:WORKER: done with job (1, 0, 1), trying to register it.
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.0:WORKER: registered result for job (1, 0, 1) with dispatcher
+DEBUG:hpbandster:DISPATCHER: job (1, 0, 1) finished
+DEBUG:hpbandster:DISPATCHER: register_result: lock acquired
+DEBUG:hpbandster:DISPATCHER: job (1, 0, 1) on hpbandster.run_rl_project_ftw.worker.c3po.16503.0140229856126784 finished
+DEBUG:hpbandster:job_id: (1, 0, 1)
+kwargs: {'config': {'action_dim': 10, 'activation': 'tanh', 'decay_rate': 0.001566311811823736, 'dropout_rate': 0.1435269223131063, 'epsilon': 0.18332542019643636, 'gamma': 0.99, 'hidden_dim': 16, 'lr': 0.001, 'seed': 940}, 'budget': 66.66666666666666, 'working_directory': '.'}
+result: {'loss': -8.395999999999997, 'info': {'max_len': 882.0, 'max_reward': 8.395999999999997}}
+exception: None
+
+DEBUG:hpbandster:job_callback for (1, 0, 1) started
+DEBUG:hpbandster:job_callback for (1, 0, 1) got condition
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+DEBUG:hpbandster:Only 2 run(s) for budget 66.666667 available, need more than 11 -> can't build model!
+DEBUG:hpbandster:HBMASTER: Trying to run another job!
+DEBUG:hpbandster:job_callback for (1, 0, 1) finished
+DEBUG:hpbandster:HBMASTER: schedule new run for iteration 0
+DEBUG:hpbandster:HBMASTER: trying submitting job (0, 0, 6) to dispatcher
+DEBUG:hpbandster:HBMASTER: submitting job (0, 0, 6) to dispatcher
+DEBUG:hpbandster:DISPATCHER: trying to submit job (0, 0, 6)
+DEBUG:hpbandster:DISPATCHER: trying to notify the job_runner thread.
+DEBUG:hpbandster:HBMASTER: job (0, 0, 6) submitted to dispatcher
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+DEBUG:hpbandster:DISPATCHER: starting job (0, 0, 6) on hpbandster.run_rl_project_ftw.worker.c3po.16503.0140229856126784
+DEBUG:hpbandster:DISPATCHER: job (0, 0, 6) dispatched on hpbandster.run_rl_project_ftw.worker.c3po.16503.0140229856126784
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.0:WORKER: start processing job (0, 0, 6)
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.0:WORKER: args: ()
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.0:WORKER: kwargs: {'config': {'action_dim': 13, 'activation': 'relu', 'decay_rate': 0.0862863014791447, 'dropout_rate': 0.08712399950378476, 'epsilon': 0.45572531402406746, 'gamma': 0.99, 'hidden_dim': 64, 'lr': 0.001, 'seed': 37}, 'budget': 66.66666666666666, 'working_directory': '.'}
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: done with job (1, 0, 2), trying to register it.
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: registered result for job (1, 0, 2) with dispatcher
+DEBUG:hpbandster:DISPATCHER: job (1, 0, 2) finished
+DEBUG:hpbandster:DISPATCHER: register_result: lock acquired
+DEBUG:hpbandster:DISPATCHER: job (1, 0, 2) on hpbandster.run_rl_project_ftw.worker.c3po.16503.2140229856126784 finished
+DEBUG:hpbandster:job_id: (1, 0, 2)
+kwargs: {'config': {'action_dim': 3, 'activation': 'relu', 'decay_rate': 0.0048862230058685134, 'dropout_rate': 0.044611576047850626, 'epsilon': 0.0632302179602945, 'gamma': 0.99, 'hidden_dim': 256, 'lr': 0.001, 'seed': 375}, 'budget': 66.66666666666666, 'working_directory': '.'}
+result: {'loss': -24.976000000000134, 'info': {'max_len': 1000.0, 'max_reward': 24.976000000000134}}
+exception: None
+
+DEBUG:hpbandster:job_callback for (1, 0, 2) started
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:job_callback for (1, 0, 2) got condition
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+DEBUG:hpbandster:Only 3 run(s) for budget 66.666667 available, need more than 11 -> can't build model!
+DEBUG:hpbandster:HBMASTER: Trying to run another job!
+DEBUG:hpbandster:job_callback for (1, 0, 2) finished
+DEBUG:hpbandster:ITERATION: Advancing config (1, 0, 2) to next budget 200.000000
+DEBUG:hpbandster:HBMASTER: schedule new run for iteration 1
+DEBUG:hpbandster:HBMASTER: trying submitting job (1, 0, 2) to dispatcher
+DEBUG:hpbandster:HBMASTER: submitting job (1, 0, 2) to dispatcher
+DEBUG:hpbandster:DISPATCHER: trying to submit job (1, 0, 2)
+DEBUG:hpbandster:DISPATCHER: trying to notify the job_runner thread.
+DEBUG:hpbandster:HBMASTER: job (1, 0, 2) submitted to dispatcher
+DEBUG:hpbandster:HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:DISPATCHER: starting job (1, 0, 2) on hpbandster.run_rl_project_ftw.worker.c3po.16503.2140229856126784
+DEBUG:hpbandster:DISPATCHER: job (1, 0, 2) dispatched on hpbandster.run_rl_project_ftw.worker.c3po.16503.2140229856126784
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: start processing job (1, 0, 2)
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: args: ()
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: kwargs: {'config': {'action_dim': 3, 'activation': 'relu', 'decay_rate': 0.0048862230058685134, 'dropout_rate': 0.044611576047850626, 'epsilon': 0.0632302179602945, 'gamma': 0.99, 'hidden_dim': 256, 'lr': 0.001, 'seed': 375}, 'budget': 200.0, 'working_directory': '.'}
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: done with job (0, 0, 2), trying to register it.
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: registered result for job (0, 0, 2) with dispatcher
+DEBUG:hpbandster:DISPATCHER: job (0, 0, 2) finished
+DEBUG:hpbandster:DISPATCHER: register_result: lock acquired
+DEBUG:hpbandster:DISPATCHER: job (0, 0, 2) on hpbandster.run_rl_project_ftw.worker.c3po.16503.3140229856126784 finished
+DEBUG:hpbandster:job_id: (0, 0, 2)
+kwargs: {'config': {'action_dim': 19, 'activation': 'relu', 'decay_rate': 0.004323431910155637, 'dropout_rate': 0.03890722456746514, 'epsilon': 0.16416127674646336, 'gamma': 0.99, 'hidden_dim': 16, 'lr': 0.001, 'seed': 524}, 'budget': 66.66666666666666, 'working_directory': '.'}
+result: {'loss': 9.483, 'info': {'max_len': 517.0, 'max_reward': -9.483}}
+exception: None
+
+DEBUG:hpbandster:job_callback for (0, 0, 2) started
+DEBUG:hpbandster:job_callback for (0, 0, 2) got condition
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+DEBUG:hpbandster:Only 4 run(s) for budget 66.666667 available, need more than 11 -> can't build model!
+DEBUG:hpbandster:HBMASTER: Trying to run another job!
+DEBUG:hpbandster:job_callback for (0, 0, 2) finished
+DEBUG:hpbandster:start sampling a new configuration.
+DEBUG:hpbandster:0
+DEBUG:hpbandster:0.7380196028789563, 0.3333333333333333
+DEBUG:hpbandster:done sampling a new configuration.
+DEBUG:hpbandster:HBMASTER: schedule new run for iteration 2
+DEBUG:hpbandster:HBMASTER: trying submitting job (2, 0, 0) to dispatcher
+DEBUG:hpbandster:HBMASTER: submitting job (2, 0, 0) to dispatcher
+DEBUG:hpbandster:DISPATCHER: trying to submit job (2, 0, 0)
+DEBUG:hpbandster:DISPATCHER: trying to notify the job_runner thread.
+DEBUG:hpbandster:HBMASTER: job (2, 0, 0) submitted to dispatcher
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+DEBUG:hpbandster:DISPATCHER: starting job (2, 0, 0) on hpbandster.run_rl_project_ftw.worker.c3po.16503.3140229856126784
+DEBUG:hpbandster:DISPATCHER: job (2, 0, 0) dispatched on hpbandster.run_rl_project_ftw.worker.c3po.16503.3140229856126784
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: start processing job (2, 0, 0)
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: args: ()
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: kwargs: {'config': {'action_dim': 18, 'activation': 'tanh', 'decay_rate': 0.09987394666290135, 'dropout_rate': 0.07538677098942284, 'epsilon': 0.013201653690980173, 'gamma': 0.99, 'hidden_dim': 16, 'lr': 0.001, 'seed': 434}, 'budget': 200.0, 'working_directory': '.'}
+DEBUG:hpbandster:DISPATCHER: Starting worker discovery
+DEBUG:hpbandster:DISPATCHER: Found 4 potential workers, 4 currently in the pool.
+DEBUG:hpbandster:DISPATCHER: Finished worker discovery
+DEBUG:hpbandster:DISPATCHER: Starting worker discovery
+DEBUG:hpbandster:DISPATCHER: Found 4 potential workers, 4 currently in the pool.
+DEBUG:hpbandster:DISPATCHER: Finished worker discovery
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.1:WORKER: done with job (0, 0, 3), trying to register it.
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.1:WORKER: registered result for job (0, 0, 3) with dispatcher
+DEBUG:hpbandster:DISPATCHER: job (0, 0, 3) finished
+DEBUG:hpbandster:DISPATCHER: register_result: lock acquired
+DEBUG:hpbandster:DISPATCHER: job (0, 0, 3) on hpbandster.run_rl_project_ftw.worker.c3po.16503.1140229856126784 finished
+DEBUG:hpbandster:job_id: (0, 0, 3)
+kwargs: {'config': {'action_dim': 13, 'activation': 'tanh', 'decay_rate': 0.09508549692132386, 'dropout_rate': 0.010127476878339882, 'epsilon': 0.5260053966918045, 'gamma': 0.99, 'hidden_dim': 128, 'lr': 0.001, 'seed': 444}, 'budget': 66.66666666666666, 'working_directory': '.'}
+result: {'loss': -26.974000000000256, 'info': {'max_len': 1000.0, 'max_reward': 26.974000000000256}}
+exception: None
+
+DEBUG:hpbandster:job_callback for (0, 0, 3) started
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:job_callback for (0, 0, 3) got condition
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+DEBUG:hpbandster:Only 5 run(s) for budget 66.666667 available, need more than 11 -> can't build model!
+DEBUG:hpbandster:HBMASTER: Trying to run another job!
+DEBUG:hpbandster:job_callback for (0, 0, 3) finished
+DEBUG:hpbandster:start sampling a new configuration.
+DEBUG:hpbandster:0
+DEBUG:hpbandster:0.594200540581024, 0.3333333333333333
+DEBUG:hpbandster:done sampling a new configuration.
+DEBUG:hpbandster:HBMASTER: schedule new run for iteration 2
+DEBUG:hpbandster:HBMASTER: trying submitting job (2, 0, 1) to dispatcher
+DEBUG:hpbandster:HBMASTER: submitting job (2, 0, 1) to dispatcher
+DEBUG:hpbandster:DISPATCHER: trying to submit job (2, 0, 1)
+DEBUG:hpbandster:DISPATCHER: trying to notify the job_runner thread.
+DEBUG:hpbandster:HBMASTER: job (2, 0, 1) submitted to dispatcher
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+DEBUG:hpbandster:DISPATCHER: starting job (2, 0, 1) on hpbandster.run_rl_project_ftw.worker.c3po.16503.1140229856126784
+DEBUG:hpbandster:DISPATCHER: job (2, 0, 1) dispatched on hpbandster.run_rl_project_ftw.worker.c3po.16503.1140229856126784
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.1:WORKER: start processing job (2, 0, 1)
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.1:WORKER: args: ()
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.1:WORKER: kwargs: {'config': {'action_dim': 3, 'activation': 'relu', 'decay_rate': 0.0014344909077606337, 'dropout_rate': 0.082800036631036, 'epsilon': 0.02192173697534583, 'gamma': 0.99, 'hidden_dim': 256, 'lr': 0.001, 'seed': 124}, 'budget': 200.0, 'working_directory': '.'}
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.0:WORKER: done with job (0, 0, 6), trying to register it.
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.0:WORKER: registered result for job (0, 0, 6) with dispatcher
+DEBUG:hpbandster:DISPATCHER: job (0, 0, 6) finished
+DEBUG:hpbandster:DISPATCHER: register_result: lock acquired
+DEBUG:hpbandster:DISPATCHER: job (0, 0, 6) on hpbandster.run_rl_project_ftw.worker.c3po.16503.0140229856126784 finished
+DEBUG:hpbandster:job_id: (0, 0, 6)
+kwargs: {'config': {'action_dim': 13, 'activation': 'relu', 'decay_rate': 0.0862863014791447, 'dropout_rate': 0.08712399950378476, 'epsilon': 0.45572531402406746, 'gamma': 0.99, 'hidden_dim': 64, 'lr': 0.001, 'seed': 37}, 'budget': 66.66666666666666, 'working_directory': '.'}
+result: {'loss': -16.779000000000252, 'info': {'max_len': 805.0, 'max_reward': 16.779000000000252}}
+exception: None
+
+DEBUG:hpbandster:job_callback for (0, 0, 6) started
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:job_callback for (0, 0, 6) got condition
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+DEBUG:hpbandster:Only 6 run(s) for budget 66.666667 available, need more than 11 -> can't build model!
+DEBUG:hpbandster:HBMASTER: Trying to run another job!
+DEBUG:hpbandster:job_callback for (0, 0, 6) finished
+DEBUG:hpbandster:ITERATION: Advancing config (0, 0, 3) to next budget 200.000000
+DEBUG:hpbandster:HBMASTER: schedule new run for iteration 0
+DEBUG:hpbandster:HBMASTER: trying submitting job (0, 0, 3) to dispatcher
+DEBUG:hpbandster:HBMASTER: submitting job (0, 0, 3) to dispatcher
+DEBUG:hpbandster:DISPATCHER: trying to submit job (0, 0, 3)
+DEBUG:hpbandster:DISPATCHER: trying to notify the job_runner thread.
+DEBUG:hpbandster:HBMASTER: job (0, 0, 3) submitted to dispatcher
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+DEBUG:hpbandster:DISPATCHER: starting job (0, 0, 3) on hpbandster.run_rl_project_ftw.worker.c3po.16503.0140229856126784
+DEBUG:hpbandster:DISPATCHER: job (0, 0, 3) dispatched on hpbandster.run_rl_project_ftw.worker.c3po.16503.0140229856126784
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.0:WORKER: start processing job (0, 0, 3)
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.0:WORKER: args: ()
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.0:WORKER: kwargs: {'config': {'action_dim': 13, 'activation': 'tanh', 'decay_rate': 0.09508549692132386, 'dropout_rate': 0.010127476878339882, 'epsilon': 0.5260053966918045, 'gamma': 0.99, 'hidden_dim': 128, 'lr': 0.001, 'seed': 444}, 'budget': 200.0, 'working_directory': '.'}
+DEBUG:hpbandster:DISPATCHER: Starting worker discovery
+DEBUG:hpbandster:DISPATCHER: Found 4 potential workers, 4 currently in the pool.
+DEBUG:hpbandster:DISPATCHER: Finished worker discovery
+DEBUG:hpbandster:DISPATCHER: Starting worker discovery
+DEBUG:hpbandster:DISPATCHER: Found 4 potential workers, 4 currently in the pool.
+DEBUG:hpbandster:DISPATCHER: Finished worker discovery
+DEBUG:hpbandster:DISPATCHER: Starting worker discovery
+DEBUG:hpbandster:DISPATCHER: Found 4 potential workers, 4 currently in the pool.
+DEBUG:hpbandster:DISPATCHER: Finished worker discovery
+DEBUG:hpbandster:DISPATCHER: Starting worker discovery
+DEBUG:hpbandster:DISPATCHER: Found 4 potential workers, 4 currently in the pool.
+DEBUG:hpbandster:DISPATCHER: Finished worker discovery
+DEBUG:hpbandster:DISPATCHER: Starting worker discovery
+DEBUG:hpbandster:DISPATCHER: Found 4 potential workers, 4 currently in the pool.
+DEBUG:hpbandster:DISPATCHER: Finished worker discovery
+DEBUG:hpbandster:DISPATCHER: Starting worker discovery
+DEBUG:hpbandster:DISPATCHER: Found 4 potential workers, 4 currently in the pool.
+DEBUG:hpbandster:DISPATCHER: Finished worker discovery
+DEBUG:hpbandster:DISPATCHER: Starting worker discovery
+DEBUG:hpbandster:DISPATCHER: Found 4 potential workers, 4 currently in the pool.
+DEBUG:hpbandster:DISPATCHER: Finished worker discovery
+DEBUG:hpbandster:DISPATCHER: Starting worker discovery
+DEBUG:hpbandster:DISPATCHER: Found 4 potential workers, 4 currently in the pool.
+DEBUG:hpbandster:DISPATCHER: Finished worker discovery
+DEBUG:hpbandster:DISPATCHER: Starting worker discovery
+DEBUG:hpbandster:DISPATCHER: Found 4 potential workers, 4 currently in the pool.
+DEBUG:hpbandster:DISPATCHER: Finished worker discovery
+DEBUG:hpbandster:DISPATCHER: Starting worker discovery
+DEBUG:hpbandster:DISPATCHER: Found 4 potential workers, 4 currently in the pool.
+DEBUG:hpbandster:DISPATCHER: Finished worker discovery
+DEBUG:hpbandster:DISPATCHER: Starting worker discovery
+DEBUG:hpbandster:DISPATCHER: Found 4 potential workers, 4 currently in the pool.
+DEBUG:hpbandster:DISPATCHER: Finished worker discovery
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.1:WORKER: done with job (2, 0, 1), trying to register it.
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.1:WORKER: registered result for job (2, 0, 1) with dispatcher
+DEBUG:hpbandster:DISPATCHER: job (2, 0, 1) finished
+DEBUG:hpbandster:DISPATCHER: register_result: lock acquired
+DEBUG:hpbandster:DISPATCHER: job (2, 0, 1) on hpbandster.run_rl_project_ftw.worker.c3po.16503.1140229856126784 finished
+DEBUG:hpbandster:job_id: (2, 0, 1)
+kwargs: {'config': {'action_dim': 3, 'activation': 'relu', 'decay_rate': 0.0014344909077606337, 'dropout_rate': 0.082800036631036, 'epsilon': 0.02192173697534583, 'gamma': 0.99, 'hidden_dim': 256, 'lr': 0.001, 'seed': 124}, 'budget': 200.0, 'working_directory': '.'}
+result: {'loss': -18.80900000000031, 'info': {'max_len': 1000.0, 'max_reward': 18.80900000000031}}
+exception: None
+
+DEBUG:hpbandster:job_callback for (2, 0, 1) started
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:job_callback for (2, 0, 1) got condition
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+DEBUG:hpbandster:Only 1 run(s) for budget 200.000000 available, need more than 11 -> can't build model!
+DEBUG:hpbandster:HBMASTER: Trying to run another job!
+DEBUG:hpbandster:job_callback for (2, 0, 1) finished
+DEBUG:hpbandster:start sampling a new configuration.
+DEBUG:hpbandster:0
+DEBUG:hpbandster:0.21476433757036284, 0.3333333333333333
+DEBUG:hpbandster:done sampling a new configuration.
+DEBUG:hpbandster:HBMASTER: schedule new run for iteration 2
+DEBUG:hpbandster:HBMASTER: trying submitting job (2, 0, 2) to dispatcher
+DEBUG:hpbandster:HBMASTER: submitting job (2, 0, 2) to dispatcher
+DEBUG:hpbandster:DISPATCHER: trying to submit job (2, 0, 2)
+DEBUG:hpbandster:DISPATCHER: trying to notify the job_runner thread.
+DEBUG:hpbandster:HBMASTER: job (2, 0, 2) submitted to dispatcher
+DEBUG:hpbandster:HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:DISPATCHER: starting job (2, 0, 2) on hpbandster.run_rl_project_ftw.worker.c3po.16503.1140229856126784
+DEBUG:hpbandster:DISPATCHER: job (2, 0, 2) dispatched on hpbandster.run_rl_project_ftw.worker.c3po.16503.1140229856126784
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.1:WORKER: start processing job (2, 0, 2)
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.1:WORKER: args: ()
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.1:WORKER: kwargs: {'config': {'action_dim': 12, 'activation': 'relu', 'decay_rate': 0.0030124164169067916, 'dropout_rate': 0.07416975035717766, 'epsilon': 0.8383686229639541, 'gamma': 0.99, 'hidden_dim': 256, 'lr': 0.001, 'seed': 423}, 'budget': 200.0, 'working_directory': '.'}
+DEBUG:hpbandster:DISPATCHER: Starting worker discovery
+DEBUG:hpbandster:DISPATCHER: Found 4 potential workers, 4 currently in the pool.
+DEBUG:hpbandster:DISPATCHER: Finished worker discovery
+DEBUG:hpbandster:DISPATCHER: Starting worker discovery
+DEBUG:hpbandster:DISPATCHER: Found 4 potential workers, 4 currently in the pool.
+DEBUG:hpbandster:DISPATCHER: Finished worker discovery
+DEBUG:hpbandster:DISPATCHER: Starting worker discovery
+DEBUG:hpbandster:DISPATCHER: Found 4 potential workers, 4 currently in the pool.
+DEBUG:hpbandster:DISPATCHER: Finished worker discovery
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: done with job (2, 0, 0), trying to register it.
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: registered result for job (2, 0, 0) with dispatcher
+DEBUG:hpbandster:DISPATCHER: job (2, 0, 0) finished
+DEBUG:hpbandster:DISPATCHER: register_result: lock acquired
+DEBUG:hpbandster:DISPATCHER: job (2, 0, 0) on hpbandster.run_rl_project_ftw.worker.c3po.16503.3140229856126784 finished
+DEBUG:hpbandster:job_id: (2, 0, 0)
+kwargs: {'config': {'action_dim': 18, 'activation': 'tanh', 'decay_rate': 0.09987394666290135, 'dropout_rate': 0.07538677098942284, 'epsilon': 0.013201653690980173, 'gamma': 0.99, 'hidden_dim': 16, 'lr': 0.001, 'seed': 434}, 'budget': 200.0, 'working_directory': '.'}
+result: {'loss': -58.94199999999921, 'info': {'max_len': 1000.0, 'max_reward': 58.94199999999921}}
+exception: None
+
+DEBUG:hpbandster:job_callback for (2, 0, 0) started
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:job_callback for (2, 0, 0) got condition
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+DEBUG:hpbandster:Only 2 run(s) for budget 200.000000 available, need more than 11 -> can't build model!
+DEBUG:hpbandster:HBMASTER: Trying to run another job!
+DEBUG:hpbandster:job_callback for (2, 0, 0) finished
+DEBUG:hpbandster:start sampling a new configuration.
+DEBUG:hpbandster:0
+DEBUG:hpbandster:0.08503169611138361, 0.3333333333333333
+DEBUG:hpbandster:done sampling a new configuration.
+DEBUG:hpbandster:HBMASTER: schedule new run for iteration 3
+DEBUG:hpbandster:HBMASTER: trying submitting job (3, 0, 0) to dispatcher
+DEBUG:hpbandster:HBMASTER: submitting job (3, 0, 0) to dispatcher
+DEBUG:hpbandster:DISPATCHER: trying to submit job (3, 0, 0)
+DEBUG:hpbandster:DISPATCHER: trying to notify the job_runner thread.
+DEBUG:hpbandster:HBMASTER: job (3, 0, 0) submitted to dispatcher
+DEBUG:hpbandster:HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:DISPATCHER: starting job (3, 0, 0) on hpbandster.run_rl_project_ftw.worker.c3po.16503.3140229856126784
+DEBUG:hpbandster:DISPATCHER: job (3, 0, 0) dispatched on hpbandster.run_rl_project_ftw.worker.c3po.16503.3140229856126784
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: start processing job (3, 0, 0)
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: args: ()
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: kwargs: {'config': {'action_dim': 8, 'activation': 'relu', 'decay_rate': 0.028774145361775576, 'dropout_rate': 0.0035181410136879477, 'epsilon': 0.4911403440877436, 'gamma': 0.99, 'hidden_dim': 32, 'lr': 0.001, 'seed': 567}, 'budget': 22.22222222222222, 'working_directory': '.'}
+DEBUG:hpbandster:DISPATCHER: Starting worker discovery
+DEBUG:hpbandster:DISPATCHER: Found 4 potential workers, 4 currently in the pool.
+DEBUG:hpbandster:DISPATCHER: Finished worker discovery
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: done with job (3, 0, 0), trying to register it.
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: registered result for job (3, 0, 0) with dispatcher
+DEBUG:hpbandster:DISPATCHER: job (3, 0, 0) finished
+DEBUG:hpbandster:DISPATCHER: register_result: lock acquired
+DEBUG:hpbandster:DISPATCHER: job (3, 0, 0) on hpbandster.run_rl_project_ftw.worker.c3po.16503.3140229856126784 finished
+DEBUG:hpbandster:job_id: (3, 0, 0)
+kwargs: {'config': {'action_dim': 8, 'activation': 'relu', 'decay_rate': 0.028774145361775576, 'dropout_rate': 0.0035181410136879477, 'epsilon': 0.4911403440877436, 'gamma': 0.99, 'hidden_dim': 32, 'lr': 0.001, 'seed': 567}, 'budget': 22.22222222222222, 'working_directory': '.'}
+result: {'loss': 3.0669999999999975, 'info': {'max_len': 939.0, 'max_reward': -3.0669999999999975}}
+exception: None
+
+DEBUG:hpbandster:job_callback for (3, 0, 0) started
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:job_callback for (3, 0, 0) got condition
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+DEBUG:hpbandster:(10, 9), (0, 9)
+DEBUG:hpbandster:HBMASTER: Trying to run another job!
+DEBUG:hpbandster:job_callback for (3, 0, 0) finished
+DEBUG:hpbandster:start sampling a new configuration.
+DEBUG:hpbandster:0
+DEBUG:hpbandster:0.41557557396490985, 0.3333333333333333
+DEBUG:hpbandster:done sampling a new configuration.
+DEBUG:hpbandster:HBMASTER: schedule new run for iteration 3
+DEBUG:hpbandster:HBMASTER: trying submitting job (3, 0, 1) to dispatcher
+DEBUG:hpbandster:HBMASTER: submitting job (3, 0, 1) to dispatcher
+DEBUG:hpbandster:DISPATCHER: trying to submit job (3, 0, 1)
+DEBUG:hpbandster:DISPATCHER: trying to notify the job_runner thread.
+DEBUG:hpbandster:HBMASTER: job (3, 0, 1) submitted to dispatcher
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+DEBUG:hpbandster:DISPATCHER: starting job (3, 0, 1) on hpbandster.run_rl_project_ftw.worker.c3po.16503.3140229856126784
+DEBUG:hpbandster:DISPATCHER: job (3, 0, 1) dispatched on hpbandster.run_rl_project_ftw.worker.c3po.16503.3140229856126784
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: start processing job (3, 0, 1)
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: args: ()
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: kwargs: {'config': {'action_dim': 11, 'activation': 'relu', 'decay_rate': 0.004089788380831318, 'dropout_rate': 0.149692079262926, 'epsilon': 0.011409679130955544, 'gamma': 0.99, 'hidden_dim': 64, 'lr': 0.001, 'seed': 273}, 'budget': 22.22222222222222, 'working_directory': '.'}
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: done with job (1, 0, 2), trying to register it.
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: registered result for job (1, 0, 2) with dispatcher
+DEBUG:hpbandster:DISPATCHER: job (1, 0, 2) finished
+DEBUG:hpbandster:DISPATCHER: register_result: lock acquired
+DEBUG:hpbandster:DISPATCHER: job (1, 0, 2) on hpbandster.run_rl_project_ftw.worker.c3po.16503.2140229856126784 finished
+DEBUG:hpbandster:job_id: (1, 0, 2)
+kwargs: {'config': {'action_dim': 3, 'activation': 'relu', 'decay_rate': 0.0048862230058685134, 'dropout_rate': 0.044611576047850626, 'epsilon': 0.0632302179602945, 'gamma': 0.99, 'hidden_dim': 256, 'lr': 0.001, 'seed': 375}, 'budget': 200.0, 'working_directory': '.'}
+result: {'loss': -736.2639999999991, 'info': {'max_len': 1000.0, 'max_reward': 736.2639999999991}}
+exception: None
+
+DEBUG:hpbandster:job_callback for (1, 0, 2) started
+DEBUG:hpbandster:job_callback for (1, 0, 2) got condition
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+DEBUG:hpbandster:Only 3 run(s) for budget 200.000000 available, need more than 11 -> can't build model!
+DEBUG:hpbandster:HBMASTER: Trying to run another job!
+DEBUG:hpbandster:job_callback for (1, 0, 2) finished
+DEBUG:hpbandster:start sampling a new configuration.
+DEBUG:hpbandster:0
+DEBUG:hpbandster:0.7067264730415678, 0.3333333333333333
+DEBUG:hpbandster:done sampling a new configuration.
+DEBUG:hpbandster:HBMASTER: schedule new run for iteration 3
+DEBUG:hpbandster:HBMASTER: trying submitting job (3, 0, 2) to dispatcher
+DEBUG:hpbandster:HBMASTER: submitting job (3, 0, 2) to dispatcher
+DEBUG:hpbandster:DISPATCHER: trying to submit job (3, 0, 2)
+DEBUG:hpbandster:DISPATCHER: trying to notify the job_runner thread.
+DEBUG:hpbandster:HBMASTER: job (3, 0, 2) submitted to dispatcher
+DEBUG:hpbandster:HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:DISPATCHER: starting job (3, 0, 2) on hpbandster.run_rl_project_ftw.worker.c3po.16503.2140229856126784
+DEBUG:hpbandster:DISPATCHER: job (3, 0, 2) dispatched on hpbandster.run_rl_project_ftw.worker.c3po.16503.2140229856126784
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: start processing job (3, 0, 2)
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: args: ()
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: kwargs: {'config': {'action_dim': 3, 'activation': 'tanh', 'decay_rate': 0.04926254886599242, 'dropout_rate': 0.17625629307173393, 'epsilon': 0.01627967481719152, 'gamma': 0.99, 'hidden_dim': 128, 'lr': 0.001, 'seed': 552}, 'budget': 22.22222222222222, 'working_directory': '.'}
+DEBUG:hpbandster:DISPATCHER: Starting worker discovery
+DEBUG:hpbandster:DISPATCHER: Found 4 potential workers, 4 currently in the pool.
+DEBUG:hpbandster:DISPATCHER: Finished worker discovery
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: done with job (3, 0, 1), trying to register it.
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: registered result for job (3, 0, 1) with dispatcher
+DEBUG:hpbandster:DISPATCHER: job (3, 0, 1) finished
+DEBUG:hpbandster:DISPATCHER: register_result: lock acquired
+DEBUG:hpbandster:DISPATCHER: job (3, 0, 1) on hpbandster.run_rl_project_ftw.worker.c3po.16503.3140229856126784 finished
+DEBUG:hpbandster:job_id: (3, 0, 1)
+kwargs: {'config': {'action_dim': 11, 'activation': 'relu', 'decay_rate': 0.004089788380831318, 'dropout_rate': 0.149692079262926, 'epsilon': 0.011409679130955544, 'gamma': 0.99, 'hidden_dim': 64, 'lr': 0.001, 'seed': 273}, 'budget': 22.22222222222222, 'working_directory': '.'}
+result: {'loss': 9.554, 'info': {'max_len': 446.0, 'max_reward': -9.554}}
+exception: None
+
+DEBUG:hpbandster:job_callback for (3, 0, 1) started
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:job_callback for (3, 0, 1) got condition
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+DEBUG:hpbandster:(10, 9), (1, 9)
+DEBUG:hpbandster:HBMASTER: Trying to run another job!
+DEBUG:hpbandster:job_callback for (3, 0, 1) finished
+DEBUG:hpbandster:start sampling a new configuration.
+DEBUG:hpbandster:0
+DEBUG:hpbandster:0.22903387491999905, 0.3333333333333333
+DEBUG:hpbandster:done sampling a new configuration.
+DEBUG:hpbandster:HBMASTER: schedule new run for iteration 3
+DEBUG:hpbandster:HBMASTER: trying submitting job (3, 0, 3) to dispatcher
+DEBUG:hpbandster:HBMASTER: submitting job (3, 0, 3) to dispatcher
+DEBUG:hpbandster:DISPATCHER: trying to submit job (3, 0, 3)
+DEBUG:hpbandster:DISPATCHER: trying to notify the job_runner thread.
+DEBUG:hpbandster:HBMASTER: job (3, 0, 3) submitted to dispatcher
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+DEBUG:hpbandster:DISPATCHER: starting job (3, 0, 3) on hpbandster.run_rl_project_ftw.worker.c3po.16503.3140229856126784
+DEBUG:hpbandster:DISPATCHER: job (3, 0, 3) dispatched on hpbandster.run_rl_project_ftw.worker.c3po.16503.3140229856126784
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: start processing job (3, 0, 3)
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: args: ()
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: kwargs: {'config': {'action_dim': 17, 'activation': 'relu', 'decay_rate': 0.01277385758084962, 'dropout_rate': 0.025142224715840468, 'epsilon': 0.033821831027702275, 'gamma': 0.99, 'hidden_dim': 64, 'lr': 0.001, 'seed': 442}, 'budget': 22.22222222222222, 'working_directory': '.'}
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: done with job (3, 0, 2), trying to register it.
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: registered result for job (3, 0, 2) with dispatcher
+DEBUG:hpbandster:DISPATCHER: job (3, 0, 2) finished
+DEBUG:hpbandster:DISPATCHER: register_result: lock acquired
+DEBUG:hpbandster:DISPATCHER: job (3, 0, 2) on hpbandster.run_rl_project_ftw.worker.c3po.16503.2140229856126784 finished
+DEBUG:hpbandster:job_id: (3, 0, 2)
+kwargs: {'config': {'action_dim': 3, 'activation': 'tanh', 'decay_rate': 0.04926254886599242, 'dropout_rate': 0.17625629307173393, 'epsilon': 0.01627967481719152, 'gamma': 0.99, 'hidden_dim': 128, 'lr': 0.001, 'seed': 552}, 'budget': 22.22222222222222, 'working_directory': '.'}
+result: {'loss': 9.369, 'info': {'max_len': 631.0, 'max_reward': -9.369}}
+exception: None
+
+DEBUG:hpbandster:job_callback for (3, 0, 2) started
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:job_callback for (3, 0, 2) got condition
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+DEBUG:hpbandster:(10, 9), (2, 9)
+DEBUG:hpbandster:HBMASTER: Trying to run another job!
+DEBUG:hpbandster:job_callback for (3, 0, 2) finished
+DEBUG:hpbandster:start sampling a new configuration.
+DEBUG:hpbandster:0
+DEBUG:hpbandster:0.5193425931822817, 0.3333333333333333
+DEBUG:hpbandster:done sampling a new configuration.
+DEBUG:hpbandster:HBMASTER: schedule new run for iteration 3
+DEBUG:hpbandster:HBMASTER: trying submitting job (3, 0, 4) to dispatcher
+DEBUG:hpbandster:HBMASTER: submitting job (3, 0, 4) to dispatcher
+DEBUG:hpbandster:DISPATCHER: trying to submit job (3, 0, 4)
+DEBUG:hpbandster:DISPATCHER: trying to notify the job_runner thread.
+DEBUG:hpbandster:HBMASTER: job (3, 0, 4) submitted to dispatcher
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+DEBUG:hpbandster:DISPATCHER: starting job (3, 0, 4) on hpbandster.run_rl_project_ftw.worker.c3po.16503.2140229856126784
+DEBUG:hpbandster:DISPATCHER: job (3, 0, 4) dispatched on hpbandster.run_rl_project_ftw.worker.c3po.16503.2140229856126784
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: start processing job (3, 0, 4)
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: args: ()
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: kwargs: {'config': {'action_dim': 15, 'activation': 'tanh', 'decay_rate': 0.009703141301747946, 'dropout_rate': 0.18266039159303707, 'epsilon': 0.9400136209261771, 'gamma': 0.99, 'hidden_dim': 16, 'lr': 0.001, 'seed': 179}, 'budget': 22.22222222222222, 'working_directory': '.'}
+DEBUG:hpbandster:DISPATCHER: Starting worker discovery
+DEBUG:hpbandster:DISPATCHER: Found 4 potential workers, 4 currently in the pool.
+DEBUG:hpbandster:DISPATCHER: Finished worker discovery
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: done with job (3, 0, 3), trying to register it.
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: registered result for job (3, 0, 3) with dispatcher
+DEBUG:hpbandster:DISPATCHER: job (3, 0, 3) finished
+DEBUG:hpbandster:DISPATCHER: register_result: lock acquired
+DEBUG:hpbandster:DISPATCHER: job (3, 0, 3) on hpbandster.run_rl_project_ftw.worker.c3po.16503.3140229856126784 finished
+DEBUG:hpbandster:job_id: (3, 0, 3)
+kwargs: {'config': {'action_dim': 17, 'activation': 'relu', 'decay_rate': 0.01277385758084962, 'dropout_rate': 0.025142224715840468, 'epsilon': 0.033821831027702275, 'gamma': 0.99, 'hidden_dim': 64, 'lr': 0.001, 'seed': 442}, 'budget': 22.22222222222222, 'working_directory': '.'}
+result: {'loss': 4.560999999999997, 'info': {'max_len': 526.0, 'max_reward': -4.560999999999997}}
+exception: None
+
+DEBUG:hpbandster:job_callback for (3, 0, 3) started
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:job_callback for (3, 0, 3) got condition
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+DEBUG:hpbandster:(10, 9), (3, 9)
+DEBUG:hpbandster:HBMASTER: Trying to run another job!
+DEBUG:hpbandster:job_callback for (3, 0, 3) finished
+DEBUG:hpbandster:start sampling a new configuration.
+DEBUG:hpbandster:0
+DEBUG:hpbandster:0.8196166558367212, 0.3333333333333333
+DEBUG:hpbandster:done sampling a new configuration.
+DEBUG:hpbandster:HBMASTER: schedule new run for iteration 3
+DEBUG:hpbandster:HBMASTER: trying submitting job (3, 0, 5) to dispatcher
+DEBUG:hpbandster:HBMASTER: submitting job (3, 0, 5) to dispatcher
+DEBUG:hpbandster:DISPATCHER: trying to submit job (3, 0, 5)
+DEBUG:hpbandster:DISPATCHER: trying to notify the job_runner thread.
+DEBUG:hpbandster:HBMASTER: job (3, 0, 5) submitted to dispatcher
+DEBUG:hpbandster:HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:DISPATCHER: starting job (3, 0, 5) on hpbandster.run_rl_project_ftw.worker.c3po.16503.3140229856126784
+DEBUG:hpbandster:DISPATCHER: job (3, 0, 5) dispatched on hpbandster.run_rl_project_ftw.worker.c3po.16503.3140229856126784
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: start processing job (3, 0, 5)
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: args: ()
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: kwargs: {'config': {'action_dim': 14, 'activation': 'tanh', 'decay_rate': 0.003403622973326913, 'dropout_rate': 0.13236371181466972, 'epsilon': 0.12209299937163913, 'gamma': 0.99, 'hidden_dim': 16, 'lr': 0.001, 'seed': 211}, 'budget': 22.22222222222222, 'working_directory': '.'}
+DEBUG:hpbandster:DISPATCHER: Starting worker discovery
+DEBUG:hpbandster:DISPATCHER: Found 4 potential workers, 4 currently in the pool.
+DEBUG:hpbandster:DISPATCHER: Finished worker discovery
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: done with job (3, 0, 4), trying to register it.
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: registered result for job (3, 0, 4) with dispatcher
+DEBUG:hpbandster:DISPATCHER: job (3, 0, 4) finished
+DEBUG:hpbandster:DISPATCHER: register_result: lock acquired
+DEBUG:hpbandster:DISPATCHER: job (3, 0, 4) on hpbandster.run_rl_project_ftw.worker.c3po.16503.2140229856126784 finished
+DEBUG:hpbandster:job_id: (3, 0, 4)
+kwargs: {'config': {'action_dim': 15, 'activation': 'tanh', 'decay_rate': 0.009703141301747946, 'dropout_rate': 0.18266039159303707, 'epsilon': 0.9400136209261771, 'gamma': 0.99, 'hidden_dim': 16, 'lr': 0.001, 'seed': 179}, 'budget': 22.22222222222222, 'working_directory': '.'}
+result: {'loss': 9.498999999999999, 'info': {'max_len': 501.0, 'max_reward': -9.498999999999999}}
+exception: None
+
+DEBUG:hpbandster:job_callback for (3, 0, 4) started
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:job_callback for (3, 0, 4) got condition
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+DEBUG:hpbandster:(10, 9), (4, 9)
+DEBUG:hpbandster:HBMASTER: Trying to run another job!
+DEBUG:hpbandster:job_callback for (3, 0, 4) finished
+DEBUG:hpbandster:start sampling a new configuration.
+DEBUG:hpbandster:0
+DEBUG:hpbandster:0.6041802528974759, 0.3333333333333333
+DEBUG:hpbandster:done sampling a new configuration.
+DEBUG:hpbandster:HBMASTER: schedule new run for iteration 3
+DEBUG:hpbandster:HBMASTER: trying submitting job (3, 0, 6) to dispatcher
+DEBUG:hpbandster:HBMASTER: submitting job (3, 0, 6) to dispatcher
+DEBUG:hpbandster:DISPATCHER: trying to submit job (3, 0, 6)
+DEBUG:hpbandster:DISPATCHER: trying to notify the job_runner thread.
+DEBUG:hpbandster:HBMASTER: job (3, 0, 6) submitted to dispatcher
+DEBUG:hpbandster:HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:DISPATCHER: starting job (3, 0, 6) on hpbandster.run_rl_project_ftw.worker.c3po.16503.2140229856126784
+DEBUG:hpbandster:DISPATCHER: job (3, 0, 6) dispatched on hpbandster.run_rl_project_ftw.worker.c3po.16503.2140229856126784
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: start processing job (3, 0, 6)
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: args: ()
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: kwargs: {'config': {'action_dim': 9, 'activation': 'tanh', 'decay_rate': 0.01377237564628505, 'dropout_rate': 0.16453458906266552, 'epsilon': 0.13781184074246788, 'gamma': 0.99, 'hidden_dim': 128, 'lr': 0.001, 'seed': 247}, 'budget': 22.22222222222222, 'working_directory': '.'}
+DEBUG:hpbandster:DISPATCHER: Starting worker discovery
+DEBUG:hpbandster:DISPATCHER: Found 4 potential workers, 4 currently in the pool.
+DEBUG:hpbandster:DISPATCHER: Finished worker discovery
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: done with job (3, 0, 5), trying to register it.
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: registered result for job (3, 0, 5) with dispatcher
+DEBUG:hpbandster:DISPATCHER: job (3, 0, 5) finished
+DEBUG:hpbandster:DISPATCHER: register_result: lock acquired
+DEBUG:hpbandster:DISPATCHER: job (3, 0, 5) on hpbandster.run_rl_project_ftw.worker.c3po.16503.3140229856126784 finished
+DEBUG:hpbandster:job_id: (3, 0, 5)
+kwargs: {'config': {'action_dim': 14, 'activation': 'tanh', 'decay_rate': 0.003403622973326913, 'dropout_rate': 0.13236371181466972, 'epsilon': 0.12209299937163913, 'gamma': 0.99, 'hidden_dim': 16, 'lr': 0.001, 'seed': 211}, 'budget': 22.22222222222222, 'working_directory': '.'}
+result: {'loss': 9.402, 'info': {'max_len': 598.0, 'max_reward': -9.402}}
+exception: None
+
+DEBUG:hpbandster:job_callback for (3, 0, 5) started
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:job_callback for (3, 0, 5) got condition
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+DEBUG:hpbandster:(10, 9), (5, 9)
+DEBUG:hpbandster:HBMASTER: Trying to run another job!
+DEBUG:hpbandster:job_callback for (3, 0, 5) finished
+DEBUG:hpbandster:start sampling a new configuration.
+DEBUG:hpbandster:0
+DEBUG:hpbandster:0.17668566527840557, 0.3333333333333333
+DEBUG:hpbandster:done sampling a new configuration.
+DEBUG:hpbandster:HBMASTER: schedule new run for iteration 3
+DEBUG:hpbandster:HBMASTER: trying submitting job (3, 0, 7) to dispatcher
+DEBUG:hpbandster:HBMASTER: submitting job (3, 0, 7) to dispatcher
+DEBUG:hpbandster:DISPATCHER: trying to submit job (3, 0, 7)
+DEBUG:hpbandster:DISPATCHER: trying to notify the job_runner thread.
+DEBUG:hpbandster:HBMASTER: job (3, 0, 7) submitted to dispatcher
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+DEBUG:hpbandster:DISPATCHER: starting job (3, 0, 7) on hpbandster.run_rl_project_ftw.worker.c3po.16503.3140229856126784
+DEBUG:hpbandster:DISPATCHER: job (3, 0, 7) dispatched on hpbandster.run_rl_project_ftw.worker.c3po.16503.3140229856126784
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: start processing job (3, 0, 7)
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: args: ()
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: kwargs: {'config': {'action_dim': 16, 'activation': 'relu', 'decay_rate': 0.0016510255513072015, 'dropout_rate': 0.06656408530735314, 'epsilon': 0.5313271492541566, 'gamma': 0.99, 'hidden_dim': 32, 'lr': 0.001, 'seed': 432}, 'budget': 22.22222222222222, 'working_directory': '.'}
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: done with job (3, 0, 6), trying to register it.
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: registered result for job (3, 0, 6) with dispatcher
+DEBUG:hpbandster:DISPATCHER: job (3, 0, 6) finished
+DEBUG:hpbandster:DISPATCHER: register_result: lock acquired
+DEBUG:hpbandster:DISPATCHER: job (3, 0, 6) on hpbandster.run_rl_project_ftw.worker.c3po.16503.2140229856126784 finished
+DEBUG:hpbandster:job_id: (3, 0, 6)
+kwargs: {'config': {'action_dim': 9, 'activation': 'tanh', 'decay_rate': 0.01377237564628505, 'dropout_rate': 0.16453458906266552, 'epsilon': 0.13781184074246788, 'gamma': 0.99, 'hidden_dim': 128, 'lr': 0.001, 'seed': 247}, 'budget': 22.22222222222222, 'working_directory': '.'}
+result: {'loss': 9.323, 'info': {'max_len': 677.0, 'max_reward': -9.323}}
+exception: None
+
+DEBUG:hpbandster:job_callback for (3, 0, 6) started
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:job_callback for (3, 0, 6) got condition
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+DEBUG:hpbandster:(10, 9), (6, 9)
+DEBUG:hpbandster:HBMASTER: Trying to run another job!
+DEBUG:hpbandster:job_callback for (3, 0, 6) finished
+DEBUG:hpbandster:start sampling a new configuration.
+DEBUG:hpbandster:0
+DEBUG:hpbandster:0.6026708791835201, 0.3333333333333333
+DEBUG:hpbandster:done sampling a new configuration.
+DEBUG:hpbandster:HBMASTER: schedule new run for iteration 3
+DEBUG:hpbandster:HBMASTER: trying submitting job (3, 0, 8) to dispatcher
+DEBUG:hpbandster:HBMASTER: submitting job (3, 0, 8) to dispatcher
+DEBUG:hpbandster:DISPATCHER: trying to submit job (3, 0, 8)
+DEBUG:hpbandster:DISPATCHER: trying to notify the job_runner thread.
+DEBUG:hpbandster:HBMASTER: job (3, 0, 8) submitted to dispatcher
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+DEBUG:hpbandster:DISPATCHER: starting job (3, 0, 8) on hpbandster.run_rl_project_ftw.worker.c3po.16503.2140229856126784
+DEBUG:hpbandster:DISPATCHER: job (3, 0, 8) dispatched on hpbandster.run_rl_project_ftw.worker.c3po.16503.2140229856126784
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: start processing job (3, 0, 8)
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: args: ()
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: kwargs: {'config': {'action_dim': 9, 'activation': 'relu', 'decay_rate': 0.010405036253896887, 'dropout_rate': 0.09319048008386328, 'epsilon': 0.3080807784745713, 'gamma': 0.99, 'hidden_dim': 64, 'lr': 0.001, 'seed': 233}, 'budget': 22.22222222222222, 'working_directory': '.'}
+DEBUG:hpbandster:DISPATCHER: Starting worker discovery
+DEBUG:hpbandster:DISPATCHER: Found 4 potential workers, 4 currently in the pool.
+DEBUG:hpbandster:DISPATCHER: Finished worker discovery
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: done with job (3, 0, 7), trying to register it.
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: registered result for job (3, 0, 7) with dispatcher
+DEBUG:hpbandster:DISPATCHER: job (3, 0, 7) finished
+DEBUG:hpbandster:DISPATCHER: register_result: lock acquired
+DEBUG:hpbandster:DISPATCHER: job (3, 0, 7) on hpbandster.run_rl_project_ftw.worker.c3po.16503.3140229856126784 finished
+DEBUG:hpbandster:job_id: (3, 0, 7)
+kwargs: {'config': {'action_dim': 16, 'activation': 'relu', 'decay_rate': 0.0016510255513072015, 'dropout_rate': 0.06656408530735314, 'epsilon': 0.5313271492541566, 'gamma': 0.99, 'hidden_dim': 32, 'lr': 0.001, 'seed': 432}, 'budget': 22.22222222222222, 'working_directory': '.'}
+result: {'loss': 9.366, 'info': {'max_len': 634.0, 'max_reward': -9.366}}
+exception: None
+
+DEBUG:hpbandster:job_callback for (3, 0, 7) started
+DEBUG:hpbandster:job_callback for (3, 0, 7) got condition
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+DEBUG:hpbandster:(10, 9), (7, 9)
+DEBUG:hpbandster:HBMASTER: Trying to run another job!
+DEBUG:hpbandster:job_callback for (3, 0, 7) finished
+DEBUG:hpbandster:start sampling a new configuration.
+DEBUG:hpbandster:0
+DEBUG:hpbandster:0.7327146586863789, 0.3333333333333333
+DEBUG:hpbandster:done sampling a new configuration.
+DEBUG:hpbandster:HBMASTER: schedule new run for iteration 4
+DEBUG:hpbandster:HBMASTER: trying submitting job (4, 0, 0) to dispatcher
+DEBUG:hpbandster:HBMASTER: submitting job (4, 0, 0) to dispatcher
+DEBUG:hpbandster:DISPATCHER: trying to submit job (4, 0, 0)
+DEBUG:hpbandster:DISPATCHER: trying to notify the job_runner thread.
+DEBUG:hpbandster:HBMASTER: job (4, 0, 0) submitted to dispatcher
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+DEBUG:hpbandster:DISPATCHER: starting job (4, 0, 0) on hpbandster.run_rl_project_ftw.worker.c3po.16503.3140229856126784
+DEBUG:hpbandster:DISPATCHER: job (4, 0, 0) dispatched on hpbandster.run_rl_project_ftw.worker.c3po.16503.3140229856126784
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: start processing job (4, 0, 0)
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: args: ()
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: kwargs: {'config': {'action_dim': 14, 'activation': 'tanh', 'decay_rate': 0.03868253528746291, 'dropout_rate': 0.007942077808798187, 'epsilon': 0.041272024352918775, 'gamma': 0.99, 'hidden_dim': 32, 'lr': 0.001, 'seed': 756}, 'budget': 66.66666666666666, 'working_directory': '.'}
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: done with job (3, 0, 8), trying to register it.
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: registered result for job (3, 0, 8) with dispatcher
+DEBUG:hpbandster:DISPATCHER: job (3, 0, 8) finished
+DEBUG:hpbandster:DISPATCHER: register_result: lock acquired
+DEBUG:hpbandster:DISPATCHER: job (3, 0, 8) on hpbandster.run_rl_project_ftw.worker.c3po.16503.2140229856126784 finished
+DEBUG:hpbandster:job_id: (3, 0, 8)
+kwargs: {'config': {'action_dim': 9, 'activation': 'relu', 'decay_rate': 0.010405036253896887, 'dropout_rate': 0.09319048008386328, 'epsilon': 0.3080807784745713, 'gamma': 0.99, 'hidden_dim': 64, 'lr': 0.001, 'seed': 233}, 'budget': 22.22222222222222, 'working_directory': '.'}
+result: {'loss': 6.417000000000003, 'info': {'max_len': 586.0, 'max_reward': -6.417000000000003}}
+exception: None
+
+DEBUG:hpbandster:job_callback for (3, 0, 8) started
+DEBUG:hpbandster:job_callback for (3, 0, 8) got condition
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+DEBUG:hpbandster:(10, 9), (8, 9)
+DEBUG:hpbandster:HBMASTER: Trying to run another job!
+DEBUG:hpbandster:job_callback for (3, 0, 8) finished
+DEBUG:hpbandster:ITERATION: Advancing config (3, 0, 0) to next budget 66.666667
+DEBUG:hpbandster:ITERATION: Advancing config (3, 0, 3) to next budget 66.666667
+DEBUG:hpbandster:ITERATION: Advancing config (3, 0, 8) to next budget 66.666667
+DEBUG:hpbandster:HBMASTER: schedule new run for iteration 3
+DEBUG:hpbandster:HBMASTER: trying submitting job (3, 0, 0) to dispatcher
+DEBUG:hpbandster:HBMASTER: submitting job (3, 0, 0) to dispatcher
+DEBUG:hpbandster:DISPATCHER: trying to submit job (3, 0, 0)
+DEBUG:hpbandster:DISPATCHER: trying to notify the job_runner thread.
+DEBUG:hpbandster:HBMASTER: job (3, 0, 0) submitted to dispatcher
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+DEBUG:hpbandster:DISPATCHER: starting job (3, 0, 0) on hpbandster.run_rl_project_ftw.worker.c3po.16503.2140229856126784
+DEBUG:hpbandster:DISPATCHER: job (3, 0, 0) dispatched on hpbandster.run_rl_project_ftw.worker.c3po.16503.2140229856126784
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: start processing job (3, 0, 0)
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: args: ()
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: kwargs: {'config': {'action_dim': 8, 'activation': 'relu', 'decay_rate': 0.028774145361775576, 'dropout_rate': 0.0035181410136879477, 'epsilon': 0.4911403440877436, 'gamma': 0.99, 'hidden_dim': 32, 'lr': 0.001, 'seed': 567}, 'budget': 66.66666666666666, 'working_directory': '.'}
+DEBUG:hpbandster:DISPATCHER: Starting worker discovery
+DEBUG:hpbandster:DISPATCHER: Found 4 potential workers, 4 currently in the pool.
+DEBUG:hpbandster:DISPATCHER: Finished worker discovery
+DEBUG:hpbandster:DISPATCHER: Starting worker discovery
+DEBUG:hpbandster:DISPATCHER: Found 4 potential workers, 4 currently in the pool.
+DEBUG:hpbandster:DISPATCHER: Finished worker discovery
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: done with job (4, 0, 0), trying to register it.
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: registered result for job (4, 0, 0) with dispatcher
+DEBUG:hpbandster:DISPATCHER: job (4, 0, 0) finished
+DEBUG:hpbandster:DISPATCHER: register_result: lock acquired
+DEBUG:hpbandster:DISPATCHER: job (4, 0, 0) on hpbandster.run_rl_project_ftw.worker.c3po.16503.3140229856126784 finished
+DEBUG:hpbandster:job_id: (4, 0, 0)
+kwargs: {'config': {'action_dim': 14, 'activation': 'tanh', 'decay_rate': 0.03868253528746291, 'dropout_rate': 0.007942077808798187, 'epsilon': 0.041272024352918775, 'gamma': 0.99, 'hidden_dim': 32, 'lr': 0.001, 'seed': 756}, 'budget': 66.66666666666666, 'working_directory': '.'}
+result: {'loss': 9.639, 'info': {'max_len': 361.0, 'max_reward': -9.639}}
+exception: None
+
+DEBUG:hpbandster:job_callback for (4, 0, 0) started
+DEBUG:hpbandster:job_callback for (4, 0, 0) got condition
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+DEBUG:hpbandster:Only 7 run(s) for budget 66.666667 available, need more than 11 -> can't build model!
+DEBUG:hpbandster:HBMASTER: Trying to run another job!
+DEBUG:hpbandster:job_callback for (4, 0, 0) finished
+DEBUG:hpbandster:HBMASTER: schedule new run for iteration 3
+DEBUG:hpbandster:HBMASTER: trying submitting job (3, 0, 3) to dispatcher
+DEBUG:hpbandster:HBMASTER: submitting job (3, 0, 3) to dispatcher
+DEBUG:hpbandster:DISPATCHER: trying to submit job (3, 0, 3)
+DEBUG:hpbandster:DISPATCHER: trying to notify the job_runner thread.
+DEBUG:hpbandster:HBMASTER: job (3, 0, 3) submitted to dispatcher
+DEBUG:hpbandster:HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:DISPATCHER: starting job (3, 0, 3) on hpbandster.run_rl_project_ftw.worker.c3po.16503.3140229856126784
+DEBUG:hpbandster:DISPATCHER: job (3, 0, 3) dispatched on hpbandster.run_rl_project_ftw.worker.c3po.16503.3140229856126784
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: start processing job (3, 0, 3)
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: args: ()
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: kwargs: {'config': {'action_dim': 17, 'activation': 'relu', 'decay_rate': 0.01277385758084962, 'dropout_rate': 0.025142224715840468, 'epsilon': 0.033821831027702275, 'gamma': 0.99, 'hidden_dim': 64, 'lr': 0.001, 'seed': 442}, 'budget': 66.66666666666666, 'working_directory': '.'}
+DEBUG:hpbandster:DISPATCHER: Starting worker discovery
+DEBUG:hpbandster:DISPATCHER: Found 4 potential workers, 4 currently in the pool.
+DEBUG:hpbandster:DISPATCHER: Finished worker discovery
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: done with job (3, 0, 0), trying to register it.
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: registered result for job (3, 0, 0) with dispatcher
+DEBUG:hpbandster:DISPATCHER: job (3, 0, 0) finished
+DEBUG:hpbandster:DISPATCHER: register_result: lock acquired
+DEBUG:hpbandster:DISPATCHER: job (3, 0, 0) on hpbandster.run_rl_project_ftw.worker.c3po.16503.2140229856126784 finished
+DEBUG:hpbandster:job_id: (3, 0, 0)
+kwargs: {'config': {'action_dim': 8, 'activation': 'relu', 'decay_rate': 0.028774145361775576, 'dropout_rate': 0.0035181410136879477, 'epsilon': 0.4911403440877436, 'gamma': 0.99, 'hidden_dim': 32, 'lr': 0.001, 'seed': 567}, 'budget': 66.66666666666666, 'working_directory': '.'}
+result: {'loss': 4.437000000000002, 'info': {'max_len': 568.0, 'max_reward': -4.437000000000002}}
+exception: None
+
+DEBUG:hpbandster:job_callback for (3, 0, 0) started
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:job_callback for (3, 0, 0) got condition
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+DEBUG:hpbandster:Only 8 run(s) for budget 66.666667 available, need more than 11 -> can't build model!
+DEBUG:hpbandster:HBMASTER: Trying to run another job!
+DEBUG:hpbandster:job_callback for (3, 0, 0) finished
+DEBUG:hpbandster:HBMASTER: schedule new run for iteration 3
+DEBUG:hpbandster:HBMASTER: trying submitting job (3, 0, 8) to dispatcher
+DEBUG:hpbandster:HBMASTER: submitting job (3, 0, 8) to dispatcher
+DEBUG:hpbandster:DISPATCHER: trying to submit job (3, 0, 8)
+DEBUG:hpbandster:DISPATCHER: trying to notify the job_runner thread.
+DEBUG:hpbandster:HBMASTER: job (3, 0, 8) submitted to dispatcher
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+DEBUG:hpbandster:DISPATCHER: starting job (3, 0, 8) on hpbandster.run_rl_project_ftw.worker.c3po.16503.2140229856126784
+DEBUG:hpbandster:DISPATCHER: job (3, 0, 8) dispatched on hpbandster.run_rl_project_ftw.worker.c3po.16503.2140229856126784
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: start processing job (3, 0, 8)
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: args: ()
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: kwargs: {'config': {'action_dim': 9, 'activation': 'relu', 'decay_rate': 0.010405036253896887, 'dropout_rate': 0.09319048008386328, 'epsilon': 0.3080807784745713, 'gamma': 0.99, 'hidden_dim': 64, 'lr': 0.001, 'seed': 233}, 'budget': 66.66666666666666, 'working_directory': '.'}
+DEBUG:hpbandster:DISPATCHER: Starting worker discovery
+DEBUG:hpbandster:DISPATCHER: Found 4 potential workers, 4 currently in the pool.
+DEBUG:hpbandster:DISPATCHER: Finished worker discovery
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.0:WORKER: done with job (0, 0, 3), trying to register it.
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.0:WORKER: registered result for job (0, 0, 3) with dispatcher
+DEBUG:hpbandster:DISPATCHER: job (0, 0, 3) finished
+DEBUG:hpbandster:DISPATCHER: register_result: lock acquired
+DEBUG:hpbandster:DISPATCHER: job (0, 0, 3) on hpbandster.run_rl_project_ftw.worker.c3po.16503.0140229856126784 finished
+DEBUG:hpbandster:job_id: (0, 0, 3)
+kwargs: {'config': {'action_dim': 13, 'activation': 'tanh', 'decay_rate': 0.09508549692132386, 'dropout_rate': 0.010127476878339882, 'epsilon': 0.5260053966918045, 'gamma': 0.99, 'hidden_dim': 128, 'lr': 0.001, 'seed': 444}, 'budget': 200.0, 'working_directory': '.'}
+result: {'loss': -899.101, 'info': {'max_len': 1000.0, 'max_reward': 899.101}}
+exception: None
+
+DEBUG:hpbandster:job_callback for (0, 0, 3) started
+DEBUG:hpbandster:job_callback for (0, 0, 3) got condition
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+DEBUG:hpbandster:Only 4 run(s) for budget 200.000000 available, need more than 11 -> can't build model!
+DEBUG:hpbandster:HBMASTER: Trying to run another job!
+DEBUG:hpbandster:job_callback for (0, 0, 3) finished
+DEBUG:hpbandster:start sampling a new configuration.
+DEBUG:hpbandster:0
+DEBUG:hpbandster:0.5375767355292246, 0.3333333333333333
+DEBUG:hpbandster:done sampling a new configuration.
+DEBUG:hpbandster:HBMASTER: schedule new run for iteration 4
+DEBUG:hpbandster:HBMASTER: trying submitting job (4, 0, 1) to dispatcher
+DEBUG:hpbandster:HBMASTER: submitting job (4, 0, 1) to dispatcher
+DEBUG:hpbandster:DISPATCHER: trying to submit job (4, 0, 1)
+DEBUG:hpbandster:DISPATCHER: trying to notify the job_runner thread.
+DEBUG:hpbandster:HBMASTER: job (4, 0, 1) submitted to dispatcher
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+DEBUG:hpbandster:DISPATCHER: starting job (4, 0, 1) on hpbandster.run_rl_project_ftw.worker.c3po.16503.0140229856126784
+DEBUG:hpbandster:DISPATCHER: job (4, 0, 1) dispatched on hpbandster.run_rl_project_ftw.worker.c3po.16503.0140229856126784
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.0:WORKER: start processing job (4, 0, 1)
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.0:WORKER: args: ()
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.0:WORKER: kwargs: {'config': {'action_dim': 7, 'activation': 'relu', 'decay_rate': 0.011944605982168162, 'dropout_rate': 0.015133809927789166, 'epsilon': 0.014637127912624915, 'gamma': 0.99, 'hidden_dim': 128, 'lr': 0.001, 'seed': 305}, 'budget': 66.66666666666666, 'working_directory': '.'}
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: done with job (3, 0, 3), trying to register it.
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: registered result for job (3, 0, 3) with dispatcher
+DEBUG:hpbandster:DISPATCHER: job (3, 0, 3) finished
+DEBUG:hpbandster:DISPATCHER: register_result: lock acquired
+DEBUG:hpbandster:DISPATCHER: job (3, 0, 3) on hpbandster.run_rl_project_ftw.worker.c3po.16503.3140229856126784 finished
+DEBUG:hpbandster:job_id: (3, 0, 3)
+kwargs: {'config': {'action_dim': 17, 'activation': 'relu', 'decay_rate': 0.01277385758084962, 'dropout_rate': 0.025142224715840468, 'epsilon': 0.033821831027702275, 'gamma': 0.99, 'hidden_dim': 64, 'lr': 0.001, 'seed': 442}, 'budget': 66.66666666666666, 'working_directory': '.'}
+result: {'loss': -14.771000000000164, 'info': {'max_len': 795.0, 'max_reward': 14.771000000000164}}
+exception: None
+
+DEBUG:hpbandster:job_callback for (3, 0, 3) started
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:job_callback for (3, 0, 3) got condition
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+DEBUG:hpbandster:Only 9 run(s) for budget 66.666667 available, need more than 11 -> can't build model!
+DEBUG:hpbandster:HBMASTER: Trying to run another job!
+DEBUG:hpbandster:job_callback for (3, 0, 3) finished
+DEBUG:hpbandster:start sampling a new configuration.
+DEBUG:hpbandster:0
+DEBUG:hpbandster:0.34762106119290326, 0.3333333333333333
+DEBUG:hpbandster:done sampling a new configuration.
+DEBUG:hpbandster:HBMASTER: schedule new run for iteration 4
+DEBUG:hpbandster:HBMASTER: trying submitting job (4, 0, 2) to dispatcher
+DEBUG:hpbandster:HBMASTER: submitting job (4, 0, 2) to dispatcher
+DEBUG:hpbandster:DISPATCHER: trying to submit job (4, 0, 2)
+DEBUG:hpbandster:DISPATCHER: trying to notify the job_runner thread.
+DEBUG:hpbandster:HBMASTER: job (4, 0, 2) submitted to dispatcher
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+DEBUG:hpbandster:DISPATCHER: starting job (4, 0, 2) on hpbandster.run_rl_project_ftw.worker.c3po.16503.3140229856126784
+DEBUG:hpbandster:DISPATCHER: job (4, 0, 2) dispatched on hpbandster.run_rl_project_ftw.worker.c3po.16503.3140229856126784
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: start processing job (4, 0, 2)
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: args: ()
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: kwargs: {'config': {'action_dim': 11, 'activation': 'tanh', 'decay_rate': 0.002453209594134271, 'dropout_rate': 0.16765231931574853, 'epsilon': 0.03446683281252199, 'gamma': 0.99, 'hidden_dim': 128, 'lr': 0.001, 'seed': 185}, 'budget': 66.66666666666666, 'working_directory': '.'}
+DEBUG:hpbandster:DISPATCHER: Starting worker discovery
+DEBUG:hpbandster:DISPATCHER: Found 4 potential workers, 4 currently in the pool.
+DEBUG:hpbandster:DISPATCHER: Finished worker discovery
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.1:WORKER: done with job (2, 0, 2), trying to register it.
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.1:WORKER: registered result for job (2, 0, 2) with dispatcher
+DEBUG:hpbandster:DISPATCHER: job (2, 0, 2) finished
+DEBUG:hpbandster:DISPATCHER: register_result: lock acquired
+DEBUG:hpbandster:DISPATCHER: job (2, 0, 2) on hpbandster.run_rl_project_ftw.worker.c3po.16503.1140229856126784 finished
+DEBUG:hpbandster:job_id: (2, 0, 2)
+kwargs: {'config': {'action_dim': 12, 'activation': 'relu', 'decay_rate': 0.0030124164169067916, 'dropout_rate': 0.07416975035717766, 'epsilon': 0.8383686229639541, 'gamma': 0.99, 'hidden_dim': 256, 'lr': 0.001, 'seed': 423}, 'budget': 200.0, 'working_directory': '.'}
+result: {'loss': -56.94399999999901, 'info': {'max_len': 1000.0, 'max_reward': 56.94399999999901}}
+exception: None
+
+DEBUG:hpbandster:job_callback for (2, 0, 2) started
+DEBUG:hpbandster:job_callback for (2, 0, 2) got condition
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+DEBUG:hpbandster:Only 5 run(s) for budget 200.000000 available, need more than 11 -> can't build model!
+DEBUG:hpbandster:HBMASTER: Trying to run another job!
+DEBUG:hpbandster:job_callback for (2, 0, 2) finished
+DEBUG:hpbandster:DISPATCHER: Starting worker discovery
+DEBUG:hpbandster:DISPATCHER: Found 4 potential workers, 4 currently in the pool.
+DEBUG:hpbandster:DISPATCHER: Finished worker discovery
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: done with job (3, 0, 8), trying to register it.
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: registered result for job (3, 0, 8) with dispatcher
+DEBUG:hpbandster:DISPATCHER: job (3, 0, 8) finished
+DEBUG:hpbandster:DISPATCHER: register_result: lock acquired
+DEBUG:hpbandster:DISPATCHER: job (3, 0, 8) on hpbandster.run_rl_project_ftw.worker.c3po.16503.2140229856126784 finished
+DEBUG:hpbandster:job_id: (3, 0, 8)
+kwargs: {'config': {'action_dim': 9, 'activation': 'relu', 'decay_rate': 0.010405036253896887, 'dropout_rate': 0.09319048008386328, 'epsilon': 0.3080807784745713, 'gamma': 0.99, 'hidden_dim': 64, 'lr': 0.001, 'seed': 233}, 'budget': 66.66666666666666, 'working_directory': '.'}
+result: {'loss': 9.469999999999999, 'info': {'max_len': 530.0, 'max_reward': -9.469999999999999}}
+exception: None
+
+DEBUG:hpbandster:job_callback for (3, 0, 8) started
+DEBUG:hpbandster:job_callback for (3, 0, 8) got condition
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 2 -> waiting!
+DEBUG:hpbandster:(10, 9), (0, 9)
+DEBUG:hpbandster:HBMASTER: Trying to run another job!
+DEBUG:hpbandster:job_callback for (3, 0, 8) finished
+DEBUG:hpbandster:ITERATION: Advancing config (3, 0, 3) to next budget 200.000000
+DEBUG:hpbandster:HBMASTER: schedule new run for iteration 3
+DEBUG:hpbandster:HBMASTER: trying submitting job (3, 0, 3) to dispatcher
+DEBUG:hpbandster:HBMASTER: submitting job (3, 0, 3) to dispatcher
+DEBUG:hpbandster:DISPATCHER: trying to submit job (3, 0, 3)
+DEBUG:hpbandster:DISPATCHER: trying to notify the job_runner thread.
+DEBUG:hpbandster:HBMASTER: job (3, 0, 3) submitted to dispatcher
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:DISPATCHER: starting job (3, 0, 3) on hpbandster.run_rl_project_ftw.worker.c3po.16503.1140229856126784
+DEBUG:hpbandster:DISPATCHER: job (3, 0, 3) dispatched on hpbandster.run_rl_project_ftw.worker.c3po.16503.1140229856126784
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.1:WORKER: start processing job (3, 0, 3)
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.1:WORKER: args: ()
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.1:WORKER: kwargs: {'config': {'action_dim': 17, 'activation': 'relu', 'decay_rate': 0.01277385758084962, 'dropout_rate': 0.025142224715840468, 'epsilon': 0.033821831027702275, 'gamma': 0.99, 'hidden_dim': 64, 'lr': 0.001, 'seed': 442}, 'budget': 200.0, 'working_directory': '.'}
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.0:WORKER: done with job (4, 0, 1), trying to register it.
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.0:WORKER: registered result for job (4, 0, 1) with dispatcher
+DEBUG:hpbandster:DISPATCHER: job (4, 0, 1) finished
+DEBUG:hpbandster:DISPATCHER: register_result: lock acquired
+DEBUG:hpbandster:DISPATCHER: job (4, 0, 1) on hpbandster.run_rl_project_ftw.worker.c3po.16503.0140229856126784 finished
+DEBUG:hpbandster:job_id: (4, 0, 1)
+kwargs: {'config': {'action_dim': 7, 'activation': 'relu', 'decay_rate': 0.011944605982168162, 'dropout_rate': 0.015133809927789166, 'epsilon': 0.014637127912624915, 'gamma': 0.99, 'hidden_dim': 128, 'lr': 0.001, 'seed': 305}, 'budget': 66.66666666666666, 'working_directory': '.'}
+result: {'loss': 6.643000000000001, 'info': {'max_len': 462.0, 'max_reward': -6.643000000000001}}
+exception: None
+
+DEBUG:hpbandster:job_callback for (4, 0, 1) started
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:job_callback for (4, 0, 1) got condition
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 2 -> waiting!
+DEBUG:hpbandster:(10, 9), (1, 9)
+DEBUG:hpbandster:HBMASTER: Trying to run another job!
+DEBUG:hpbandster:job_callback for (4, 0, 1) finished
+DEBUG:hpbandster:DISPATCHER: Starting worker discovery
+DEBUG:hpbandster:DISPATCHER: Found 4 potential workers, 4 currently in the pool.
+DEBUG:hpbandster:DISPATCHER: Finished worker discovery
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: done with job (4, 0, 2), trying to register it.
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: registered result for job (4, 0, 2) with dispatcher
+DEBUG:hpbandster:DISPATCHER: job (4, 0, 2) finished
+DEBUG:hpbandster:DISPATCHER: register_result: lock acquired
+DEBUG:hpbandster:DISPATCHER: job (4, 0, 2) on hpbandster.run_rl_project_ftw.worker.c3po.16503.3140229856126784 finished
+DEBUG:hpbandster:job_id: (4, 0, 2)
+kwargs: {'config': {'action_dim': 11, 'activation': 'tanh', 'decay_rate': 0.002453209594134271, 'dropout_rate': 0.16765231931574853, 'epsilon': 0.03446683281252199, 'gamma': 0.99, 'hidden_dim': 128, 'lr': 0.001, 'seed': 185}, 'budget': 66.66666666666666, 'working_directory': '.'}
+result: {'loss': -2.6299999999999546, 'info': {'max_len': 642.0, 'max_reward': 2.6299999999999546}}
+exception: None
+
+DEBUG:hpbandster:job_callback for (4, 0, 2) started
+DEBUG:hpbandster:job_callback for (4, 0, 2) got condition
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 3 -> waiting!
+DEBUG:hpbandster:(10, 9), (2, 9)
+DEBUG:hpbandster:HBMASTER: Trying to run another job!
+DEBUG:hpbandster:job_callback for (4, 0, 2) finished
+DEBUG:hpbandster:ITERATION: Advancing config (4, 0, 2) to next budget 200.000000
+DEBUG:hpbandster:HBMASTER: schedule new run for iteration 4
+DEBUG:hpbandster:HBMASTER: trying submitting job (4, 0, 2) to dispatcher
+DEBUG:hpbandster:HBMASTER: submitting job (4, 0, 2) to dispatcher
+DEBUG:hpbandster:DISPATCHER: trying to submit job (4, 0, 2)
+DEBUG:hpbandster:DISPATCHER: trying to notify the job_runner thread.
+DEBUG:hpbandster:HBMASTER: job (4, 0, 2) submitted to dispatcher
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:DISPATCHER: starting job (4, 0, 2) on hpbandster.run_rl_project_ftw.worker.c3po.16503.2140229856126784
+DEBUG:hpbandster:DISPATCHER: job (4, 0, 2) dispatched on hpbandster.run_rl_project_ftw.worker.c3po.16503.2140229856126784
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 2 -> waiting!
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: start processing job (4, 0, 2)
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: args: ()
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: kwargs: {'config': {'action_dim': 11, 'activation': 'tanh', 'decay_rate': 0.002453209594134271, 'dropout_rate': 0.16765231931574853, 'epsilon': 0.03446683281252199, 'gamma': 0.99, 'hidden_dim': 128, 'lr': 0.001, 'seed': 185}, 'budget': 200.0, 'working_directory': '.'}
+DEBUG:hpbandster:DISPATCHER: Starting worker discovery
+DEBUG:hpbandster:DISPATCHER: Found 4 potential workers, 4 currently in the pool.
+DEBUG:hpbandster:DISPATCHER: Finished worker discovery
+DEBUG:hpbandster:DISPATCHER: Starting worker discovery
+DEBUG:hpbandster:DISPATCHER: Found 4 potential workers, 4 currently in the pool.
+DEBUG:hpbandster:DISPATCHER: Finished worker discovery
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.1:WORKER: done with job (3, 0, 3), trying to register it.
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.1:WORKER: registered result for job (3, 0, 3) with dispatcher
+DEBUG:hpbandster:DISPATCHER: job (3, 0, 3) finished
+DEBUG:hpbandster:DISPATCHER: register_result: lock acquired
+DEBUG:hpbandster:DISPATCHER: job (3, 0, 3) on hpbandster.run_rl_project_ftw.worker.c3po.16503.1140229856126784 finished
+DEBUG:hpbandster:job_id: (3, 0, 3)
+kwargs: {'config': {'action_dim': 17, 'activation': 'relu', 'decay_rate': 0.01277385758084962, 'dropout_rate': 0.025142224715840468, 'epsilon': 0.033821831027702275, 'gamma': 0.99, 'hidden_dim': 64, 'lr': 0.001, 'seed': 442}, 'budget': 200.0, 'working_directory': '.'}
+result: {'loss': -18.573000000000228, 'info': {'max_len': 601.0, 'max_reward': 18.573000000000228}}
+exception: None
+
+DEBUG:hpbandster:job_callback for (3, 0, 3) started
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:job_callback for (3, 0, 3) got condition
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 3 -> waiting!
+DEBUG:hpbandster:Only 6 run(s) for budget 200.000000 available, need more than 11 -> can't build model!
+DEBUG:hpbandster:HBMASTER: Trying to run another job!
+DEBUG:hpbandster:job_callback for (3, 0, 3) finished
+DEBUG:hpbandster:DISPATCHER: Starting worker discovery
+DEBUG:hpbandster:DISPATCHER: Found 4 potential workers, 4 currently in the pool.
+DEBUG:hpbandster:DISPATCHER: Finished worker discovery
+DEBUG:hpbandster:DISPATCHER: Starting worker discovery
+DEBUG:hpbandster:DISPATCHER: Found 4 potential workers, 4 currently in the pool.
+DEBUG:hpbandster:DISPATCHER: Finished worker discovery
+DEBUG:hpbandster:DISPATCHER: Starting worker discovery
+DEBUG:hpbandster:DISPATCHER: Found 4 potential workers, 4 currently in the pool.
+DEBUG:hpbandster:DISPATCHER: Finished worker discovery
+DEBUG:hpbandster:DISPATCHER: Starting worker discovery
+DEBUG:hpbandster:DISPATCHER: Found 4 potential workers, 4 currently in the pool.
+DEBUG:hpbandster:DISPATCHER: Finished worker discovery
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: done with job (4, 0, 2), trying to register it.
+INFO:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: registered result for job (4, 0, 2) with dispatcher
+DEBUG:hpbandster:DISPATCHER: job (4, 0, 2) finished
+DEBUG:hpbandster:DISPATCHER: register_result: lock acquired
+DEBUG:hpbandster:DISPATCHER: job (4, 0, 2) on hpbandster.run_rl_project_ftw.worker.c3po.16503.2140229856126784 finished
+DEBUG:hpbandster:job_id: (4, 0, 2)
+kwargs: {'config': {'action_dim': 11, 'activation': 'tanh', 'decay_rate': 0.002453209594134271, 'dropout_rate': 0.16765231931574853, 'epsilon': 0.03446683281252199, 'gamma': 0.99, 'hidden_dim': 128, 'lr': 0.001, 'seed': 185}, 'budget': 200.0, 'working_directory': '.'}
+result: {'loss': -36.52599999999957, 'info': {'max_len': 981.0, 'max_reward': 36.52599999999957}}
+exception: None
+
+DEBUG:hpbandster:job_callback for (4, 0, 2) started
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:job_callback for (4, 0, 2) got condition
+DEBUG:hpbandster:DISPATCHER: jobs to submit = 0, number of idle workers = 4 -> waiting!
+DEBUG:hpbandster:Only 7 run(s) for budget 200.000000 available, need more than 11 -> can't build model!
+DEBUG:hpbandster:HBMASTER: Trying to run another job!
+DEBUG:hpbandster:job_callback for (4, 0, 2) finished
+DEBUG:hpbandster:HBMASTER: shutdown initiated, shutdown_workers = True
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.3:WORKER: shutting down now!
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.0:WORKER: shutting down now!
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.2:WORKER: shutting down now!
+DEBUG:hpbandster.run_rl_project_ftw.worker.c3po.16503.1:WORKER: shutting down now!
+INFO:hpbandster:DISPATCHER: Dispatcher shutting down
+DEBUG:hpbandster:DISPATCHER: Trying to submit another job.
+DEBUG:hpbandster:DISPATCHER: job_runner shutting down
+DEBUG:hpbandster:DISPATCHER: discover_workers shutting down
+DEBUG:hpbandster:DISPATCHER: 'discover_worker' thread exited
+DEBUG:hpbandster:DISPATCHER: 'job_runner' thread exited
+INFO:hpbandster:DISPATCHER: shut down complete
+Best found configuration: {'action_dim': 13, 'activation': 'tanh', 'decay_rate': 0.09508549692132386, 'dropout_rate': 0.010127476878339882, 'epsilon': 0.5260053966918045, 'gamma': 0.99, 'hidden_dim': 128, 'lr': 0.001, 'seed': 444}
+A total of 27 unique configurations where sampled.
+A total of 37 runs where executed.
+Total budget corresponds to 13.0 full function evaluations.
+Total budget corresponds to 13.0 full function evaluations.
+The run took  2425.4 seconds to complete.
